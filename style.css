@@ -1,0 +1,27 @@
+#dheader{
+    background-color: #384859;
+    width: full;
+    height: 220px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color: #90be9a;
+}
+#hlogo{
+    width: 200px;
+    height: 200px;
+    background-color:#384859 ;
+    margin: 10px;
+    border-radius: 15px;
+    border-style: none;
+    
+}
+#photo{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius:  10px; 
+    
+}
