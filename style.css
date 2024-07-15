@@ -182,6 +182,8 @@ border-radius: 10px;
     width: 1417px;
     height: 500px;
     margin: 0px 0px 0% 0px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
 }
 h1{
     height: 260px;
@@ -201,13 +203,14 @@ h1{
 
 }
 #hd button{
-    margin-top: -160px;
+    margin-top: -155px;
     position: absolute;
     width: 400px;
     height: 90px;
     margin-left: 220px;
     border-radius: 20px;
     border: none;
+    border: solid rgb(255, 255, 255) 2px;
     
 
 }
@@ -221,4 +224,13 @@ button span{
 }
 button a{
     text-decoration: none;
+}
+button:hover{
+    background-color: #384859;
+    transition:ease-in-out 150ms;
+    
+
+}
+button:hover span{
+    color: #ffffff;
 }
