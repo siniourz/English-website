@@ -1,11 +1,11 @@
 .dheader{
     background-color: #384859;
-    width: 100%;
+    width: 1417px;
     height: 120px;
-    border-radius: 20px;
     display: inline-block;
-    flex-wrap: wrap;
     margin: 0px;
+    border: none;
+
    
     
 }
@@ -17,24 +17,31 @@
 
 
 
+
 }
 body{
-    background-color: #90be9a;
+    background-color: #384859;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1417px;
+    margin:4px;
+    
 }
 .nmd{
     float: left;
     height: 90px;
+    
   
 
 }
 #hlogo{
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    width: 110px;
+    height: 110px;
+    margin: 2px 10px 0px 0px ;
     border-radius: 15px;
     display: table-cell;
     vertical-align: middle;
-    border: solid black 2px;
+    border: solid #ffffff 2px;
     
 }
 
@@ -45,6 +52,8 @@ body{
  width: 900px;
  margin-top: 8px;
  text-align: center;
+ display: flex;
+ flex-wrap: wrap;
  
  
  
@@ -59,6 +68,7 @@ body{
   width: 90px;
   padding: 10px;
   height: 50px;
+  
  
   
 
@@ -69,6 +79,7 @@ body{
     text-align: center;
     color: rgb(255, 255, 255);
     text-transform: capitalize;
+    
 
 
 }
@@ -81,7 +92,7 @@ border-radius: 10px;
 
 }
 #l1:hover{
-    color: #222;
+    color: #90be9a;
 
 }
 #l1::before{
@@ -89,7 +100,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:100%;
-    background-color:#222;
+    background-color:#90be9a;
     position: absolute;
     top: 0;
     width: 0%;
@@ -102,7 +113,7 @@ border-radius: 10px;
 }
 
 #l2:hover{
-    color: #222;
+    color: #90be9a;
 
 }
 #l2::before{
@@ -110,7 +121,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:1000%;
-    background-color:#222;
+    background-color:#90be9a;
     position: absolute;
     top: 0;
     width: 0%;
@@ -122,7 +133,7 @@ border-radius: 10px;
     width: 26%;
 }
 #l3:hover{
-    color: #222;
+    color: #90be9a;
 
 }
 #l3::before{
@@ -130,7 +141,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:1000%;
-    background-color:#222;
+    background-color:#90be9a;
     position: absolute;
     top: 0;
     width: 0%;
@@ -142,7 +153,7 @@ border-radius: 10px;
     width: 40%;
 }
 #l4:hover{
-    color: #222;
+    color: #90be9a;
 
 }
 #l4::before{
@@ -150,7 +161,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:1000%;
-    background-color:#222;
+    background-color:#90be9a;
     position: absolute;
     top: 0;
     width: 0%;
@@ -160,4 +171,17 @@ border-radius: 10px;
 }
 #l4:hover::before{
     width: 55%;
+}
+.bigimg{
+    width: 1500px;
+    height: 600px;
+    ;
+}
+ #aks{
+    width: 1417px;
+    height: 500px;
+    margin: 0px 0px 0% 0px;
+    
+
+
 }
