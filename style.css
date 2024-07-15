@@ -5,6 +5,7 @@
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
+    margin: 0px;
 }
 body{
     background-color: #90be9a;
@@ -16,6 +17,7 @@ body{
     margin: 10px;
     border-radius: 15px;
     border-style: none;
+    float: left;
     
 }
 #photo{
@@ -24,4 +26,18 @@ body{
     margin: 10px;
     border-radius:  10px; 
     
+}
+#options{
+    float: right;
+    font: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font: 20px;
+   
 }
