@@ -1,9 +1,9 @@
 #dheader{
     background-color: #384859;
-    width: full;
-    height: 220px;
+    width: 100%;
+    height: 120px;
     border-radius: 20px;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     margin: 0px;
 }
@@ -11,9 +11,9 @@ body{
     background-color: #90be9a;
 }
 #hlogo{
-    width: 200px;
-    height: 200px;
-    background-color:#384859 ;
+    width: 100px;
+    height: 100px;
+    background-color:#979ea6 ;
     margin: 10px;
     border-radius: 15px;
     border-style: none;
@@ -21,8 +21,8 @@ body{
     
 }
 #photo{
-    width: 180px;
-    height: 180px;
+    width: 80px;
+    height: 80px;
     margin: 10px;
     border-radius:  10px; 
     
