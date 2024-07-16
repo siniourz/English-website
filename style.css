@@ -28,6 +28,7 @@ body{
     margin:4px;
     text-transform: capitalize;
     
+    
 }
 .nmd{
     float: left;
@@ -57,10 +58,6 @@ body{
  display: flex;
  flex-wrap: wrap;
  margin-left: 4px;
- 
- 
- 
-
 }
 .navigations ul li{
   display: inline;
@@ -259,7 +256,7 @@ button:hover span{
     color: rgb(38, 38, 38);
     
 }
-.cb, .b2{
+.cb, .b2 , .b3{
     width: 300px;
     height: 330px;
     background-color: #90be9a;
@@ -269,12 +266,21 @@ button:hover span{
 .b2{
    background-color: rgb(217, 214, 209);
    float: right;
-   margin-top: -325px;
-   margin-right: 700px;
+   margin-top: -330px;
+   position: relative;
+   left: -750px;
+}
+.b3{
+    float: right;
+    right: 405px;
+    top: -330px;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(217, 214, 209);
 }
 #small{
     float: left;
-    margin-top: 180px; 
+    margin-top: 175px; 
     width: fit-content;
     height: 40px;
     position: absolute;
@@ -295,7 +301,7 @@ text-decoration: underline;
 }
 #text{
      width: 220px;
-    margin-top: 230px; 
+    margin-top: 225px; 
     position: absolute;
     text-align: justify;
     color: #ffffff;
@@ -309,9 +315,17 @@ text-decoration: underline;
 #ielts{
     width: 90px;
     height: 100px;
-    margin-left: 110px;
+    margin-left: 107px;
     margin-top: 40px;
     margin-bottom: 10px;
+
+}
+#pt{
+    width: 90px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    top: 35px;
 
 }
 #small2 {
@@ -328,4 +342,27 @@ text-decoration: underline;
     padding-right: 20px;
     padding-left: 20px;
     margin-top: -10px;
+}
+#small2:hover{
+text-decoration: underline;
+}
+
+#sh3:hover{
+    text-decoration: underline;
+}
+#personal-teachers{
+    margin-left: 25px;
+    margin-top: 70px;
+}
+#sh4{
+    margin-top: -10px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+#personal-teachers:hover{
+text-decoration: underline;
+}
+#sh4:hover{
+    text-decoration: underline;
 }
