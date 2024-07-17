@@ -237,7 +237,7 @@ border-radius: 10px;
 
 .second{
     width: 1421px;
-    height: 520px;
+    height: 550px;
     background-color:#384859;
     position: absolute;
     margin: 0px;
@@ -246,11 +246,11 @@ border-radius: 10px;
 }
 .second h2{
     width: 1421px;
-    height: 80px;
+    height: 100px;
     background-color: rgb(217, 214, 209);
     text-align: center;
     margin-top: 10px;
-    padding-top: 40px;
+    padding-top: 55px;
     text-transform: capitalize;
     font-weight: 900;
     font-size: xx-large;
@@ -261,7 +261,7 @@ border-radius: 10px;
 }
 .cb, .b2 , .b3, .b4{
     width: 300px;
-    height: 330px;
+    height: 300px;
     background-color: #90be9a;
     margin-left: 30px;
     border-radius: 50px;
@@ -275,12 +275,13 @@ border-radius: 10px;
    margin-top: -330px;
    position: relative;
    left: -750px;
+   top: 30px;
   
 }
 .b3{
     float: right;
     right: 405px;
-    top: -330px;
+    top: -300px;
     justify-content: center;
     position: relative;
     background-color: rgb(217, 214, 209);
@@ -289,7 +290,7 @@ border-radius: 10px;
     position: relative;
     float: right;
     right: -270px;
-    top: -330px;
+    top: -300px;
 
 }
 #small{
@@ -498,9 +499,10 @@ text-decoration: underline;
     width: 300px;
     height: 50px;
     border-radius: 20px;
-    border: none;
+    border: solid #90be9a 2px;
     color: white;
     font-weight: 700;
+
 }
 #dokme3 a{
     text-decoration: none;
@@ -530,7 +532,7 @@ text-decoration: underline;
     height: 500px;
     background-color: rgb(215, 215, 215);
     position: relative;
-    top: -1350px;
+    top: -1370px;
     left: 70px;
     border-radius: 4px;
 
@@ -616,7 +618,7 @@ text-decoration: underline;
     height: 500px;
     background-color: red;
     position: relative;
-    top: -900px;
+    top: -940px;
     left: 70px;
     border-top-left-radius: 20%;
 }
@@ -717,7 +719,7 @@ top: -500px;
     width: 90%;
     height: 500px;
     position: relative;
-    bottom: 1470px;
+    bottom: 1550px;
     left: 70px;
     border-top-right-radius: 20%;
 
@@ -767,91 +769,105 @@ top: -500px;
 .fourth-part{
     width: 1417px;
     height: 620px;
-    background-color: rgb(0, 64, 255);
+    background-color: #384859;
     position: relative;
     bottom: 900px;
 }
 #big-fourth{
     position: relative;
-    top: 30px;
+    top: 55px;
     font-family: Arial, Helvetica, sans-serif;
    text-align: center;
    color: beige;
 }
-.vertical-box, .second-vertical-box{
+.vertical-box, .second-vertical-box, .third-vertical-box{
     width: 300px;
     height: 500px;
     position: relative;
     left: 120px;
-    top: 30px;
-    background-color: rgb(93, 25, 25);
+    top: 100px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 .second-vertical-box{
     position: relative;
-    top: -470px;
+    top: -400px;
     left: 500px;
     margin-left: 50px;
+
 }
-.vertical-image, .second-vertical-image{
+.third-vertical-box{
+    position: relative;
+    top: -900px;
+    left: 980px;
+}
+.vertical-image, .second-vertical-image, .third-vertical-image{
     width: 100%;
     height: 40%;
-    background-color: red;
     border-top-left-radius: 50px;
 }
-.vertical-text,.second-vertical-text{
+.vertical-text,.second-vertical-text,.third-vertical-text{
     width: 100%;
     height: 60%;
-    background-color: beige;
+    background-color: rgb(215, 215, 215);
     border-bottom-right-radius: 50px;
     position: relative;
-    top: -25px;
-    
+    top: -25px;   
+}
+.third-vertical-text{
+position: relative;
+top: 0px;
 }
 .second-vertical-text{
     position: relative;
     top: -23px;
-    
-
 }
-.khode-vertical-image, .khodesecond-vertical-image{
+.khode-vertical-image, .khodesecond-vertical-image,.khodethird-vertical-image{
     width: 100%;
     height: 100%;
     border-top-left-radius: 50px;
 }
-.vertical-heading, .second-vertical-heading{
+.vertical-heading, .second-vertical-heading,.third-vertical-heading{
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 20px;
-
-
-
+    color: #2d2d2d;
 }
 .second-vertical-heading{
     position: relative;
     top: -180px  ;
 }
-.vertical-info,.second-vertical-info{
+.vertical-info,.second-vertical-info,.third-vertical-info{
 font-size: 16px;
 width: 100%;
 height: 100%;
 text-align: center;
-font-family: Arial, Helvetica, sans-serif;;
-
+font-family: Arial, Helvetica, sans-serif;
+color: #2d2d2d;
+font-weight: 550;
+}
+.vertical-info{
+    width: 80%;
+    margin-left: 25px;
 }
 .second-vertical-info{
     position: relative;
     top: -150px;
     width: 90%;
     margin-left: 15px;
-
-   
-
 }
 .khodesecond-vertical-image{
     position: relative;
     top: -419px;
-
+}
+.third-vertical-heading{
+    position: relative;
+    top: -330px;
+}
+.third-vertical-info{
+    position: relative;
+    top: -320px;
+    width: 80%;
+    margin-left: 30px;
 }
