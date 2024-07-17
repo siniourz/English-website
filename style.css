@@ -412,7 +412,7 @@ text-decoration: underline;
 }
 .third-part{
     width: 100%;
-    height: 5000px;
+    height: 2000px;
     background-color: #5d7762;
 }
 .box1{
@@ -485,8 +485,9 @@ text-decoration: underline;
     line-height: 30px;
     position: relative;
     top: -30px;
-    width: 80%;
-    margin-left: 25px;
+    width: 70%;
+    margin-left: 45px;
+
 }
 #dokme3{
     position: relative;
@@ -520,7 +521,6 @@ text-decoration: underline;
 #khode-background{
     position: relative;
     top: -520px;
-  
     width: 100%;
    
 }
@@ -550,6 +550,7 @@ text-decoration: underline;
     border-radius: 10px;
     margin-right: 5px; ;
     margin-left: 5px;
+    padding-right: 8px;
 
 }
 #second-info{
@@ -568,8 +569,8 @@ text-decoration: underline;
     line-height: 30px;
     position: relative;
     top: -55px;
-    width: 80%;
-    margin-left: 25px;
+    width: 70%;
+    margin-left: 45px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -586,6 +587,8 @@ text-decoration: underline;
     background-color: #5d7762;
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid 2px rgb(255, 255, 255);
 }
 #second-button:hover{
     border: solid 5px rgb(255, 246, 246);
@@ -593,4 +596,107 @@ text-decoration: underline;
     transition:ease-in-out 0.5s, ease-out.5s;
     color: aliceblue;
     cursor: pointer;
+}
+.sefidbala-background{
+    width: 1417px;
+    height:700px;
+    position: relative;
+    top: -13px;
+}
+#sefid-bala{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -315px;
+    
+}
+.third-box{
+    width: 90%;
+    height: 500px;
+    background-color: red;
+    position: relative;
+    top: -900px;
+    left: 70px;
+    border-top-left-radius: 20%;
+}
+.third-box-left{
+width: 50%;
+height: 100%;
+background-color: #5d7762;
+border-top-left-radius: 20%;
+
+}
+.third-box-right{
+width: 50%;
+height: 100%;
+float: right;
+background-color: #5d7762;
+position: relative;
+top: -500px;
+}
+.third-picture{
+    width: 95%;
+    height: 95%;
+    border-top-left-radius: 20%;
+    margin: 20px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+
+}
+.third-heading{
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: beige;
+}
+.third-info{
+    font-size: 25px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -20px;
+    text-align: justify;
+    padding-right: 30px;
+    line-height: 32px;
+    color: beige;
+    width: 80%;
+    margin-left: 45px;
+}
+.third-listing{
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+    position: relative;
+    top: -35px;
+    color: beige;
+    font-weight: 300;
+    width: 70%;
+    margin-left: 50px;
+    font-weight: 100;
+    
+}
+.third-button{
+    height: 50px;
+    width: 300px;
+    background-color: #384859;
+    border: solid 2px white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    text-transform: capitalize;
+    position: relative;
+    left: 150px;
+    top: -35px;
+    color: #ffffff;
+}
+.third-button:hover{
+    background-color: beige;
+    border: solid 4px #ffffff;
+    transition: 0.5s;
+    color: #5d7762;
 }
