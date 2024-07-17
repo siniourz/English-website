@@ -457,7 +457,7 @@ text-decoration: underline;
     height: 70px;
     font-size: 50px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
     position: relative;
     left: 150px;
     font-family: Arial, Helvetica, sans-serif;
@@ -478,6 +478,7 @@ text-decoration: underline;
     position: relative;
     font-weight: 550;
     top: -25px;
+    border-top-right-radius: 20%;
 }
 #listing{
     font-size:  18px;
@@ -644,14 +645,14 @@ top: -500px;
     left: -10px;
 
 }
-.third-heading{
+.third-heading, .fourth-heading{
     font-size: 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     color: beige;
 }
-.third-info{
+.third-info,.fourth-info{
     font-size: 25px;
     font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
@@ -664,7 +665,7 @@ top: -500px;
     width: 80%;
     margin-left: 45px;
 }
-.third-listing{
+.third-listing, .fourth-listing{
     font-size: 18px;
     line-height: 30px;
     word-spacing: 5px;
@@ -679,7 +680,7 @@ top: -500px;
     font-weight: 100;
     
 }
-.third-button{
+.third-button,.fourth-button{
     height: 50px;
     width: 300px;
     background-color: #384859;
@@ -699,4 +700,67 @@ top: -500px;
     border: solid 4px #ffffff;
     transition: 0.5s;
     color: #5d7762;
+}
+.sabz-bala{
+    position: relative;
+    width: 1417px;
+    height: 700px;
+    bottom: 515px;
+}
+#sabz-bala-wallpaper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -500px;
+}
+.fourth-box{
+    width: 90%;
+    height: 500px;
+    position: relative;
+    bottom: 1470px;
+    left: 70px;
+    border-top-right-radius: 20%;
+
+}
+.fourth-box-left{
+    width: 50%;
+    height: 99%;
+    float: left;
+    background-color:rgb(215, 215, 215);
+
+}
+.fourth-box-right{
+    width: 50%;
+    height: 99%;
+    float: right;
+    background-color: rgb(215, 215, 215);
+    border-top-right-radius: 20%;
+    
+}
+#two-man{
+    width: 95%;
+    height: 95%;
+    border-top-right-radius: 20%;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+.fourth-heading{
+    color: black;
+
+}
+.fourth-info{
+    color: black;
+}
+.fourth-listing{
+    color: black;
+}
+.fourth-button{
+    background-color: #5d7762;
+
+}
+.fourth-button:hover{
+    background-color: #384859;
+    transition: 0.5s;
+    border: solid white 5px ;
 }
