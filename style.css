@@ -1187,13 +1187,16 @@ font-weight: 550;
     margin-left: 20px;
     margin-top: 40px;
     border-radius: 20px;
-    border: solid beige 2px;
+
 }
 .last-icon{
     width: 40%;
     height: 80%;
     border-radius: 20px;
     margin: 20px;
+    position: relative;
+    top: -410px;
+    left: 55px;
 }
 #last-h2{
     float: right;
@@ -1201,9 +1204,10 @@ font-weight: 550;
     width:60% ;
     height: 100%;
     text-align: center;
-    left: 12px;
-   top: -160px;
+    left: 52px;
+   top: -560px;
    font-family: Arial, Helvetica, sans-serif;
+   color: white;
     
 }
 #last-h6{
@@ -1212,61 +1216,11 @@ font-weight: 550;
     width: 60%;
     height: 100%;
     text-align: center;
-    left:8px;
+    left:48px;
     font-family: Arial, Helvetica, sans-serif;
-    top: -320px;
+    top: -750px;
+    color: white;
 
-}
-.two-last-button{
-    width: 800px;
-    height: 180px;
-    border-radius: 20px;
-    position: relative;
-    float: right;
-    top: -1220px;
-    right: -220px;
-}
-.right-small-button{
-    width: 49%;
-    margin-right: 4px;
-    height: 80%;
-    background-color: #384859;
-    float: right;
-    border-radius: 20px ;
-    font-size:30px ;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
-    border: none;
-    color: aliceblue;
-    border: solid aliceblue 3px;
-}
-.left-small-button{
-    float: left;
-    background-color: #5d7762;
-    width: 49%;
-    margin-right: 4px;
-    height: 80%;
-    border-radius: 20px ;
-    font-size:30px ;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
-    border: none;
-    position: relative;
-    left: -20px;
-    color: aliceblue;
-    border: solid aliceblue 3px;
-    
-    
-}
-.left-small-button:hover {
-    background-color: #90be9a;
-    transition: 0.5s;
-    border: solid aliceblue 10px;
-}
-.right-small-button:hover{
-    background-color: #516881;
-    transition: 0.5s;
-    border: solid aliceblue 10px;
 }
 #last-horizontal-line{
     width: 1200px;
@@ -1277,4 +1231,62 @@ font-weight: 550;
     left: 100px;
     border-radius: 20px;
     opacity: 60%;
+}
+.instagram-div{
+    width: 350px;
+    height: 50px;
+    position: relative;
+    top: -890px;
+    left: 1050px;
+}
+
+.icon-insta{
+width: 60px;
+position: relative;
+top: 5px;
+height: 40px;
+opacity: 90%;
+
+}
+.insta-link{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -13px;
+    left: -8px;
+    color: black;
+    opacity: 90%;
+}
+.yt-icon{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 10px;
+    opacity: 90%;
+    top: 4px;
+}
+.yt-link{
+    position: relative;
+    top: -12px;
+    left: 15px;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.yt-link:hover{
+    text-decoration: underline;
+}
+.insta-link:hover{
+    text-decoration: underline;
+}
+.english-student{
+    width: 1100px;
+    height: 400px;
+    position: relative;
+    left: 130px;
+    top: 50px;
+    border-radius: 5px;
+
 }
