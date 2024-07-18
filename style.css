@@ -268,11 +268,17 @@ border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px ;
 
+
+}
+.cb{
+    position: relative;
+    top: 17px;
+
 }
 .b2{
    background-color: rgb(217, 214, 209);
    float: right;
-   margin-top: -330px;
+   margin-top: -310px;
    position: relative;
    left: -750px;
    top: 30px;
@@ -281,7 +287,7 @@ border-radius: 10px;
 .b3{
     float: right;
     right: 405px;
-    top: -300px;
+    top: -280px;
     justify-content: center;
     position: relative;
     background-color: rgb(217, 214, 209);
@@ -290,7 +296,7 @@ border-radius: 10px;
     position: relative;
     float: right;
     right: -270px;
-    top: -300px;
+    top: -280px;
 
 }
 #small{
@@ -299,7 +305,7 @@ border-radius: 10px;
     width: fit-content;
     height: 40px;
     position: absolute;
-    left: 90px;
+    left: 60px;
     color: rgb(255, 255, 255);
     
    
@@ -310,19 +316,19 @@ text-decoration: underline;
 #online{
     width: 100px;
     height: 100px;
-    left: 130px;
+    left: 100px;
     margin-top: 40px;
     position: absolute;
     
 }
 #text{
-     width: 220px;
+     width: 80%;
     margin-top: 225px; 
     position: absolute;
     text-align: justify;
     color: #ffffff;
     padding-left: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     padding-right: 10px;
 }
 #text:hover{
@@ -896,7 +902,7 @@ font-weight: 550;
 
 }
 .free-button:hover{
-    background-color: beige;
+    background-color: rgb(215, 215, 215);
     border: solid #90be9a 5px;
     transition: 0.5s;
 }
@@ -936,9 +942,7 @@ font-weight: 550;
     opacity: 100%;
     transition: 0.4s;
     color: black;
-    font-size: 17px;
     position: relative;
-    
 }
 #a1{
     position: relative;
@@ -971,4 +975,90 @@ font-weight: 550;
     float: right;
     position: relative;
     right: 900px;
+}
+.fifth-part{
+    width: 1417px;
+    height: 500px;
+    background-color: #5d7762;
+    position: relative;
+    bottom: -4300px;
+}
+.first-bx{
+    width: 550px;
+    height: 350px;
+    background-color: rgb(215, 215, 215);
+    position: relative;
+    left:110px;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    top:70px;
+}
+.second-bx{
+    width: 550px;
+    height: 350px;
+    background-color: rgb(215, 215, 215);
+    position: relative;
+    float: right;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    top: -280px;
+    right: 110px;
+}
+#icon-english{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+    left: 220px;
+}
+#fourth-h2{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fourth-h5{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    text-align: center;
+    width: 80%;
+    height: 90%;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.first-bx:hover #fourth-h2{
+    text-decoration: underline;
+    transition:ease-in-out 0.2ms;
+}
+#free-icon{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+    right: -240px;
+}
+#fifth-h2{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fifth-h5{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    text-align: center;
+    width: 80%;
+    height: 90%;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-bx:hover #fifth-h2{
+    text-decoration: underline;
 }
