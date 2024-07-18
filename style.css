@@ -1062,3 +1062,99 @@ font-weight: 550;
 .second-bx:hover #fifth-h2{
     text-decoration: underline;
 }
+.last-dance{
+    width: 1417px;
+    height: 800px;
+    background-color: rgb(215, 215, 215);
+    position: relative;
+    top: 4400px;
+    padding-top: 100px;
+
+}
+.first-table , .second-table ,.third-table,.fourth-table,.fifth-table,.sixth-table,.seventh-table,.eightth-table{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(215, 215, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+  
+    
+}
+
+.third-table,.fourth-table {
+    position: relative;
+    left: 350px;
+    bottom: 600px;
+}
+
+.fifth-table,.sixth-table{
+    position: relative;
+    left: 700px;
+    bottom: 1200px;
+}
+
+.first-th, .second-th,.third-th,.fourth-th,.fifth-th,.sixth-th,.seventh-th,.eightth-th{
+    position: relative;
+    left: -60px;
+    font-size: 20px;
+    top: 10px;
+
+}
+.first-tbody, .second-tbody,.third-tbody,.fourth-tbody,.fifth-tbody,.sixth-tbody,.seventh-tbody,.eightth-tbody{
+    position: relative;
+    left: 15px;
+
+}
+.second-th{
+    position: relative;
+    left: -100px;
+ 
+}
+.second-tbody,.sixth-tbody{
+    position: relative;
+    left: 20px;
+    line-height: 0.5cm;
+}
+.third-tbody,.fourth-tbody{
+    position: relative;
+    left: 40px;
+}
+.seventh-div{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(215, 215, 215);
+    position: relative;
+    float: right;
+    bottom: 1800px;
+    right: 80px;
+}
+.eightth-th{
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    top:    10px;
+}
+.seventh-th{
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+
+}
+.eightth-table{
+    top: 70px;
+}
+.second-table{
+    top: 80px;
+}
+.fourth-table{
+    top: -520px;
+}
+.sixth-table{
+    top: -1120px;
+}
+
+.last-dance tr:hover{
+    text-decoration: underline;
+
+}
+
