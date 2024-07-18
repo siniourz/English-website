@@ -1064,7 +1064,7 @@ font-weight: 550;
 }
 .last-dance{
     width: 1417px;
-    height: 800px;
+    height: 1200px;
     background-color: rgb(215, 215, 215);
     position: relative;
     top: 4400px;
@@ -1073,24 +1073,22 @@ font-weight: 550;
 }
 .first-table , .second-table ,.third-table,.fourth-table,.fifth-table,.sixth-table,.seventh-table,.eightth-table{
     width: 300px;
-    height: 300px;
+    height: 200px;
     background-color: rgb(215, 215, 215);
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-  
-    
 }
 
 .third-table,.fourth-table {
     position: relative;
     left: 350px;
-    bottom: 600px;
+    bottom: 405px;
 }
 
 .fifth-table,.sixth-table{
     position: relative;
     left: 700px;
-    bottom: 1200px;
+    bottom: 530px;
 }
 
 .first-th, .second-th,.third-th,.fourth-th,.fifth-th,.sixth-th,.seventh-th,.eightth-th{
@@ -1110,6 +1108,7 @@ font-weight: 550;
     left: -100px;
  
 }
+
 .second-tbody,.sixth-tbody{
     position: relative;
     left: 20px;
@@ -1125,7 +1124,7 @@ font-weight: 550;
     background-color: rgb(215, 215, 215);
     position: relative;
     float: right;
-    bottom: 1800px;
+    bottom: 1215px;
     right: 80px;
 }
 .eightth-th{
@@ -1133,11 +1132,13 @@ font-weight: 550;
     right: 30px;
     font-size: 20px;
     top:    10px;
+    padding-bottom: 10px;
 }
 .seventh-th{
     position: relative;
     right: 30px;
     font-size: 20px;
+    padding-bottom: 10px;
 
 }
 .eightth-table{
@@ -1147,14 +1148,133 @@ font-weight: 550;
     top: 80px;
 }
 .fourth-table{
-    top: -520px;
+    top: -325px;
 }
 .sixth-table{
-    top: -1120px;
+    top: -1010px;
 }
 
-.last-dance tr:hover{
+.last-dance td:hover{
     text-decoration: underline;
 
 }
+#small-line{
+    width: 1200px;
+    left: 90px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    bottom: 600px;
+    opacity: 60%;
+    border-radius: 20px;
+}
+#small-vertical-line{
+    height: 702px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    float: right;
+    right: 100px;
+    bottom: 1302px;
+    opacity: 60%;
+}
+#last-logo{
+    width: 380px;
+    height: 180px;
+    position: relative;
+    background-color: rgb(215, 215, 215);
+    bottom: 600px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: solid beige 2px;
+}
+.last-icon{
+    width: 40%;
+    height: 80%;
+    border-radius: 20px;
+    margin: 20px;
+}
+#last-h2{
+    float: right;
+    position: relative;
+    width:60% ;
+    height: 100%;
+    text-align: center;
+    left: 12px;
+   top: -160px;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+#last-h6{
+    float: right;
+    position: relative;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    left:8px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -320px;
 
+}
+.two-last-button{
+    width: 800px;
+    height: 180px;
+    border-radius: 20px;
+    position: relative;
+    float: right;
+    top: -1220px;
+    right: -220px;
+}
+.right-small-button{
+    width: 49%;
+    margin-right: 4px;
+    height: 80%;
+    background-color: #384859;
+    float: right;
+    border-radius: 20px ;
+    font-size:30px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    border: none;
+    color: aliceblue;
+    border: solid aliceblue 3px;
+}
+.left-small-button{
+    float: left;
+    background-color: #5d7762;
+    width: 49%;
+    margin-right: 4px;
+    height: 80%;
+    border-radius: 20px ;
+    font-size:30px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    border: none;
+    position: relative;
+    left: -20px;
+    color: aliceblue;
+    border: solid aliceblue 3px;
+    
+    
+}
+.left-small-button:hover {
+    background-color: #90be9a;
+    transition: 0.5s;
+    border: solid aliceblue 10px;
+}
+.right-small-button:hover{
+    background-color: #516881;
+    transition: 0.5s;
+    border: solid aliceblue 10px;
+}
+#last-horizontal-line{
+    width: 1200px;
+    height: 2px;
+    background-color:rgb(0, 0, 0);
+    position: relative;
+    top: -550px;
+    left: 100px;
+    border-radius: 20px;
+    opacity: 60%;
+}
