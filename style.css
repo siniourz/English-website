@@ -302,10 +302,11 @@ border-radius: 10px;
 #small{
     float: left;
     margin-top: 175px; 
-    width: fit-content;
+    width:70%;
     height: 40px;
-    position: absolute;
-    left: 60px;
+    position: relative;
+    font-size: 24px;
+    left: 75px;
     color: rgb(255, 255, 255);
     
    
@@ -323,7 +324,7 @@ text-decoration: underline;
 }
 #text{
      width: 80%;
-    margin-top: 225px; 
+    margin-top: 215px; 
     position: absolute;
     text-align: justify;
     color: #ffffff;
@@ -355,7 +356,10 @@ text-decoration: underline;
     padding-left: 27px; 
     padding-right:  20px;
     text-transform: capitalize;
-    width: 290px;
+    width: 100%;
+    font-size: 24px;
+    position: relative;
+    left: 20px;
     justify-content: center;
     color: rgb(0, 0, 0);
     text-align: justify;
@@ -378,6 +382,11 @@ text-decoration: underline;
     margin-left: 25px;
     width: 290px;
     margin-top: 70px;
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+    top: -3px;
+
 }
 #sh4{
     margin-top: -10px;
@@ -391,11 +400,29 @@ text-decoration: underline;
 #sh4:hover{
     text-decoration: underline;
 }
+.b4,.b3,.b2,.cb{
+    opacity: 70%;
+
+}
+.b4:hover{
+    opacity: 100%;
+}
+.b3:hover{
+    opacity: 100%;
+}
+.b2:hover{
+    opacity: 100%;
+}
+.cb:hover{
+    opacity: 100%;
+}
+
+
 #st{
     width: 90px;
     height: 100px;
     position: relative;
-    left: 110px;
+    left: 105px;
     top: 35px;
 }
 #self-study{
@@ -403,6 +430,9 @@ text-decoration: underline;
     margin-top: 70px;
     color: rgb(255, 255, 255);
     width: 300px;
+    position: relative;
+    font-size: 24px;
+    left: 20px;
 }
 #sh5{
     margin-top: -10px;
@@ -430,6 +460,7 @@ text-decoration: underline;
    left:70px;
    top: 600px;
    border-top-right-radius: 20%;
+   border: solid    1px beige;
    
 
 }
