@@ -930,6 +930,7 @@ font-weight: 550;
     border: solid beige 2px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
+    font-weight:590;
 
 }
 .free-button:hover{
