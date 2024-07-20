@@ -384,7 +384,7 @@ top: -248px;
 }
 .last-p p{
     font-size: 22px;
-    color: beige;
+    color: aliceblue;
 
 }
 #last-h2{
@@ -414,6 +414,8 @@ top: -248px;
     border: solid 5px aliceblue;
     transform: scale(1.0);
 }
+
+
 .cb, .b2 , .b3, .b4{
     width: 300px;
     height: 300px;
@@ -602,4 +604,97 @@ text-decoration: underline;
 }
 #sh5:hover{
 text-decoration: underline;
+}
+.first-small-vertical-box,.second-vertical-box,.third-vertical-box,.last-vertical-box{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    bottom: 2700px;
+    left: 1100px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}
+.first-vbox,.second-vbox,.third-vbox,.last-vbox{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    background-color: aliceblue;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.first-ul li{
+    width: 200px;
+    height: 50px;
+   font-size: 18px;
+   padding-top: 10px;
+}
+.first-ul li:hover{
+    text-decoration: underline;
+    color: #5d7762;
+}
+.a1,.a2,.a3{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.second-vertical-box,.third-vertical-box,.last-vertical-box{
+height: 300px;
+    margin-top: 20px;
+}
+
+.second-vbox{
+    top: 30px;
+
+}
+.div-for-image,.div-for-image2{
+    width: 100%;
+    height: 70%;
+    background-color: red;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+  
+}
+.image-1,.image-2{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}
+.h3-for-text{
+    width: 100%;
+    height: 30%;
+    font-size: 22px;
+    text-align: center;
+    color: #384859;
+  
+}
+.h3-for-text2{
+    left: 10px;
+    position: relative;
+}
+.last-text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+.last-h3{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 25px;
+}
+.last-h4{
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    line-height: 40px;
+}
+.last-h4 li:hover{
+    text-decoration: underline;
 }
