@@ -200,7 +200,7 @@ border-radius: 10px;
     position: relative;
     float: right;
     right: 50px;
-    top: -150px;
+    top: -215px;
     border-top-left-radius:50px ;
 }
 .vocabulary-h1{
@@ -230,64 +230,76 @@ border-radius: 10px;
 }
 .info{
     position: relative;
- 
-    top: 70px;
-    width: 38%;
-    left: 35px;
+    display: inline-block;
+    color: aliceblue;
+    top: -200px;
+    width: 90%;
+    background-color: #556e88;
+    border-radius: 20px;
+    left: 60px;
 }
 #info-kochok{
     font-size: 22px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+
 }
 .info-2{
     width: 1200px;
-    
+    line-height: 25px;
     position: relative;
-    top: -125px;
+    top: -185px;
     left:2px;
     height: 100px;
     display: inline-block;
+    opacity: 80%;
   
 }
 #info2-kochok{
     width: 900px;
     height: 100%;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
    position: relative;
    left:50px ;
+   opacity: 80%;
     
 }
 .info-3{
     width: 900px;
     height: 30px;
     position: relative;
-    top: -155px;
+    top: -200px;
     left: 50px;
-    font-size: 18px;
+    font-size: 20px;
+    opacity: 90%;
 }
 #info3-kochok{
    font-size: 18px;
    position: relative;
    left: 2px;
 }
-.first-box,.second-box{
+.first-box,.second-box,.third-box{
     width: 1000px;
     height: 400px;
-  
-
-
     position: relative;
 }
 .first-box{
     left: 50px;
-    top: -140px;
+    top: -170px;
 }
 .second-box{
-    top: -130px;
+    top: -150px;
     left: 50px;
 
 }
-.first-image,.second-image{
+.third-box{
+    left: 50px;
+    top: -140px;
+}
+.first-image,.second-image,.third-image{
     width: 60%;
     height: 80%;
 
@@ -296,6 +308,11 @@ border-radius: 10px;
     position: relative;
     top: -168px;
     
+}
+.third-image{
+    position: relative;
+    top: -168px;
+ 
 }
 
 .khode-first-image{
@@ -308,30 +325,281 @@ border-radius: 10px;
     height: 100%;
 
 }
-.first-text,.second-text{
+.khode-third-image{
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    height: 100%;
+}
+.first-text,.second-text,.third-text{
     width: 55%;
     height: 62%;
     float: right;
-    background-color: white;
+    background-color: #384859;
     position: relative;
     top: -230px;
     border-top-left-radius: 55px;
 
 }
-.first-h1,.second-h1{
+.first-h1,.second-h1,.third-h1{
     position: relative;
     left: 30px;
     font-size: 34px;
     top: 10px;
+    color: azure;
     
 }
-.first-h4,.second-h4{
+.first-h4,.second-h4,.third-h4{
     width: 85%;
     position: relative;
     left: 30px;
     font-size: 20px;
     font-weight: 550;
-    color: rgb(62, 62, 62);
+    color: rgb(200, 200, 200);
    
 }
+.second-text{
+    top: -248px;
+}
+.first-text{
+    top: -231.5px;
+}
+.third-text{
+top: -248px;
 
+}
+.last-p{
+    width: 1200px;
+    height: 350px;
+    background-color: #5d7762;
+    display:inline-block;
+    position: relative;
+    top: -280px;
+    left: 75px;
+    padding:  20px ;
+    border-radius: 30px;
+    word-spacing: 2px;
+ 
+
+}
+.last-p p{
+    font-size: 22px;
+    color: beige;
+
+}
+#last-h2{
+    font-size: 32px;
+    color: beige;
+    
+
+}
+.last-button{
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #384859;
+    font-size: 20px;
+    color: aliceblue;
+    border: solid 2px aliceblue;
+    position: relative;
+    top: 40px;
+    left: 450px;
+    text-transform: capitalize;
+    
+
+}
+.last-button:hover{
+    background-color: #556e88;
+    transition:ease-in-out 0.3s;
+    border: solid 5px aliceblue;
+    transform: scale(1.0);
+}
+.cb, .b2 , .b3, .b4{
+    width: 300px;
+    height: 300px;
+    background-color: #90be9a;
+    margin-left: 30px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px ;
+  
+
+
+}
+.cb{
+    position: relative;
+    top: -195px;
+
+}
+.b2{
+   background-color: rgb(217, 214, 209);
+   float: right;
+   margin-top: -310px;
+   position: relative;
+   left: -750px;
+   top: -185px;
+  
+}
+.b3{
+    float: right;
+    right: 405px;
+    top: -495px;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(217, 214, 209);
+}
+.b4{
+    position: relative;
+    float: right;
+    right: -270px;
+    top: -495px;
+
+}
+#small{
+    float: left;
+    margin-top: 175px; 
+    width:70%;
+    height: 40px;
+    position: relative;
+    font-size: 24px;
+    left: 75px;
+    color: rgb(255, 255, 255);
+    
+   
+}
+#small:hover{
+text-decoration: underline;
+}
+#online{
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+#text{
+     width: 80%;
+    margin-top: 215px; 
+    position: absolute;
+    text-align: justify;
+    color: #ffffff;
+    padding-left: 20px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+#text:hover{
+    text-decoration: underline;
+}
+#ielts{
+    width: 90px;
+    height: 100px;
+    margin-left: 107px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+#pt{
+    width: 90px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    top: 35px;
+
+}
+#small2 {
+
+    padding-left: 27px; 
+    padding-right:  20px;
+    text-transform: capitalize;
+    width: 100%;
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+
+}
+#sh3{
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: -4px;
+}
+#small2:hover{
+text-decoration: underline;
+}
+
+#sh3:hover{
+    text-decoration: underline;
+}
+#personal-teachers{
+    margin-left: 25px;
+    width: 290px;
+    margin-top: 70px;
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+    top: -3px;
+
+}
+#sh4{
+    margin-top: -10px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+#personal-teachers:hover{
+text-decoration: underline;
+}
+#sh4:hover{
+    text-decoration: underline;
+}
+.b4,.b3,.b2,.cb{
+    opacity: 80%;
+
+}
+.b4:hover{
+    opacity: 100%;
+}
+.b3:hover{
+    opacity: 100%;
+}
+.b2:hover{
+    opacity: 100%;
+}
+.cb:hover{
+    opacity: 100%;
+}
+
+
+#st{
+    width: 90px;
+    height: 100px;
+    position: relative;
+    left: 105px;
+    top: 35px;
+}
+#self-study{
+    margin-left: 20px;
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    position: relative;
+    font-size: 24px;
+    left: 20px;
+}
+#sh5{
+    margin-top: -10px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    color:rgb(255, 255, 255) ;
+}
+#self-study:hover{
+    text-decoration: underline;
+}
+#sh5:hover{
+text-decoration: underline;
+}
