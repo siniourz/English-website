@@ -2,7 +2,6 @@
     background-color: #384859;
     width: 1415px ;
     height: 0px;
-    background-color: rebeccapurple;
     display: inline-block;
     margin: 0px;
     border: none;
@@ -25,7 +24,7 @@ body{
     background-color: #384859;
     display: flex;
     flex-wrap: wrap;
-    width: 1420px auto auto;
+    max-width: 1420px;
     margin:0px;
     text-transform: capitalize;
     margin-right: 0px;
@@ -224,7 +223,7 @@ border-radius: 10px;
 }
 .long-back{
     width: 1420px;
-    height: 3000px;
+    height: 2500px;
     background-color: aliceblue;
     border-top-left-radius:2% ;
 }
@@ -610,7 +609,7 @@ text-decoration: underline;
     width: 300px;
     height: 200px;
     background-color: white;
-    bottom: 2700px;
+    bottom: 2200px;
     left: 1100px;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
@@ -653,7 +652,6 @@ height: 300px;
 .div-for-image,.div-for-image2{
     width: 100%;
     height: 70%;
-    background-color: red;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
   
@@ -697,4 +695,102 @@ height: 300px;
 }
 .last-h4 li:hover{
     text-decoration: underline;
+}
+.last-dance2{
+    max-width: 1420px;
+    height: 700px;
+    position: relative;
+    top: -1200px;
+
+}
+.last-table,.last-table2{
+    width: 1300px;
+    height: 50%;
+    position: relative;
+   color: beige;
+
+
+}
+.last-thead{
+    position: relative;
+    width: 90%;
+    left: -30px;
+    top: 40px;
+    color: #90be9a;
+    font-size: 18px;
+}
+.last-tbody{
+    position: relative;
+    left: 70px;
+    top: 40px;
+    width: 90%;
+}
+#grammer-th{
+    position: relative;
+    left: -85px;
+}
+#general-th{
+    position: relative;
+    right:-20px;
+}
+.last-thead2{
+    position: relative;
+    top: 30px;
+    color: #90be9a;
+    left: 50px;
+    font-size: 18px;
+
+}
+.last-tbody2{
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+#vocabulary-th2{
+    position: relative;
+    left: -230px;
+
+}
+#business-english{
+    position: relative;
+    left: -250px;
+    width: 150px;
+}
+
+#general-th2{
+    position: relative;
+    left: -110px;
+    top: 20px;
+}
+.k1,.k2,.k3,.k4{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    right: 90px;
+}
+.p1,.p2,.p3,.p4{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    left: -230px;
+}
+#skills-th2{
+    position: relative;
+    left: -110px;
+}
+.last-tbody tr td:hover{
+    text-decoration: underline;
+}
+.last-tbody2 tr td:hover{
+    text-decoration: underline;
+
+}
+.last-vertical-line{
+    width: 2px;
+    height: 705px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    position: relative;
+    top: -1878px;
+    left: 1000px;
 }
