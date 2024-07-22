@@ -70,6 +70,7 @@ body{
  font-family: Arial, Helvetica, sans-serif;
  position: relative;
  left: 300px;
+
 }
 .navigations ul li{
   display: inline;
@@ -141,7 +142,7 @@ border-radius: 10px;
 
 }
 #l2:hover::before{
-    width: 33%;
+    width: 30%;
 }
 #l3:hover{
     color: #90be9a;
@@ -200,17 +201,17 @@ border-radius: 10px;
 .vocabulary-div{
     height: 300px;
     width: 800px;
-    background-color: #90be9a;
+    background-color: #556e88;
     position: relative;
     float: right;
-    right: 50px;
-    top: -215px;
+    right: -10px;
+    top: -205px;
     border-top-left-radius:50px ;
 }
 .vocabulary-h1{
     font-size: 50px;
     position: relative;
-    color: #384859;
+    color: #ffffff;
     left: 50px;
     top: 10px;
 
@@ -223,7 +224,7 @@ border-radius: 10px;
     left: 50px;
     font-size: 40px;
     font-weight: 500;
-    color: beige;
+    color: rgb(255, 255, 255);
 
 }
 .long-back{
@@ -235,10 +236,10 @@ border-radius: 10px;
 .info{
     position: relative;
     display: inline-block;
-    color: aliceblue;
+    color: beige;
     top: -200px;
     width: 90%;
-    background-color: #556e88;
+    background-color: #90be9a;
     border-radius: 20px;
     left: 60px;
 }
@@ -339,7 +340,7 @@ border-radius: 10px;
     width: 55%;
     height: 62%;
     float: right;
-    background-color: #384859;
+    background-color: #5d7762;
     position: relative;
     top: -230px;
     border-top-left-radius: 55px;
@@ -366,7 +367,7 @@ border-radius: 10px;
     top: -248px;
 }
 .first-text{
-    top: -231.5px;
+    top: -209.5px;
 }
 .third-text{
 top: -248px;
@@ -375,7 +376,7 @@ top: -248px;
 .last-p{
     width: 1200px;
     height: 350px;
-    background-color: #5d7762;
+    background-color: #556e88;
     display:inline-block;
     position: relative;
     top: -280px;
@@ -389,11 +390,14 @@ top: -248px;
 .last-p p{
     font-size: 22px;
     color: aliceblue;
+    text-align: center;
+    font-weight: 300;
 
 }
 #last-h2{
     font-size: 32px;
-    color: beige;
+    color: rgb(252, 252, 252);
+    text-align: center;
     
 
 }
@@ -401,7 +405,7 @@ top: -248px;
     width: 300px;
     height: 70px;
     border-radius: 20px;
-    background-color: #384859;
+    background-color: #5d7762;
     font-size: 20px;
     color: aliceblue;
     border: solid 2px aliceblue;
@@ -413,10 +417,11 @@ top: -248px;
 
 }
 .last-button:hover{
-    background-color: #556e88;
+    background-color: #90be9a;
     transition:ease-in-out 0.3s;
     border: solid 5px aliceblue;
     transform: scale(1.0);
+    text-decoration: underline;
 }
 
 
@@ -644,6 +649,13 @@ text-decoration: underline;
     text-decoration: none;
     color: black;
     position: relative;
+}.a2{
+    position: relative;
+    top: 5px;
+}
+.a3{
+    position: relative;
+    top: -10px;
 }
 .second-vertical-box,.third-vertical-box,.last-vertical-box{
 height: 300px;
@@ -802,5 +814,13 @@ html , body{
     top: -1678px;
     left: 1000px;
 }
-
+.first-text:hover .first-h1{
+text-decoration: underline;
+}
+.second-text:hover .second-h1{
+    text-decoration: underline;
+    }
+.third-text:hover .third-h1{
+  text-decoration: underline;   }
+        
   
