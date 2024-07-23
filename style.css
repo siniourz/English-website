@@ -63,18 +63,17 @@ body{
  font-family: Arial, Helvetica, sans-serif;
 
  position: relative;
- left: 100px;
 }
 .navigations ul li{
   display: inline;
   vertical-align: middle;
   margin: 0 55px 0px 52px;
   font-size: 40px;
-  width: 90px;
+  width: 100%;
   padding: 10px;
   height: 50px;
   position: relative;
-  left: 20px;
+  left: 120px;
 }
 .navigations li a {
     text-decoration: none;
@@ -102,7 +101,7 @@ border-radius: 10px;
     width:100%;
     background-color:#90be9a;
     position: absolute;
-    top: 0;
+    top: -31px;
     width: 0%;
     transition: all ease-in-out 320ms;
     border-radius: 8px;
@@ -124,7 +123,7 @@ border-radius: 10px;
     width:1000%;
     background-color:#90be9a;
     position: absolute;
-    top: -10px;
+    top: -31px;
     width: 0%;
     transition: all ease-in-out 320ms;
     border-radius: 8px;
@@ -144,7 +143,7 @@ border-radius: 10px;
     width:1000%;
     background-color:#90be9a;
     position: absolute;
-    top: -20px;
+    top: -31px;
     width: 0%;
     transition: all ease-in-out 320ms;
     border-radius: 8px;
