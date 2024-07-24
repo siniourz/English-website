@@ -176,25 +176,26 @@ body , html{
     background-color: #384859;
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
+    overflow:inherit;
+
 }
 .long-back{
     width: 1420px;
     height: 900px;
-
+    
     position: relative;
     top: 95px;
 
 }
 .khode-background{
-    width: 100%;
-    height: 100%;
+    width: 1420px;
+    height: 900px;
     position: relative;
 
 }
 #bg{
-    width: 100%;
-    height: 100%;
-
+    width: 1420px;
+    height: 900px;
 }
 .first-text{
     position: relative;
@@ -228,33 +229,33 @@ body , html{
     border-radius: 50px;
     opacity: 80%;
 }
+.second-box{
+    position: relative;
+    opacity: 90%;
+    height: 550px;
+    left: 510px;
+    top: -1345px;
+}
 .third-box{
     float: right;
     left: -80px;
-    top: -1920px;
+    top: -1895px;
+    height: 550px;
 }
 .per-month,.per-month-2,.per-month3{
     width: 40%;
     height: 10px;
-
-    position: relative;
-    top: -50px;
+    position: absolute;
     font-weight: 400;
     left: 210px;
     font-size: 12px;
-
 }
-.second-box{
-    position: relative;
-    opacity: 90%;
 
-    left: 510px;
-    top: -1370px;
-}
 .first-part,.part1,.p1{
     width: 100%;
     height: 50%;
-    
+    position: absolute;
+    top: 200px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
@@ -263,21 +264,20 @@ body , html{
 .second-part,.part2,.p2{
     width: 100%;
     height: 50%;
-  
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 .p1{
-    position: relative;
-    top: -30px;
+    position: absolute;
+    top: 30px;
 }
 .part2{
-    position: relative;
-    top: -20px;
+    position: absolute;
+    top: 20px;
 }
 .second-part{
-    position: relative;
-    top: -20px;
+    position: absolute;
+    top: 20px;
 }
 .text-h2,.text2-h2,.text3-h2{
     width: 100%;
@@ -294,95 +294,75 @@ body , html{
 .neveshte,.short-text,.short-text2{
     width: 100%;
     height: 20%;
-    
-    position: relative;
-    top: -38px;
+    position: absolute;
+   top: -130px;
 }
 
-.button-box1,.button2,.button3{
-    width: 100%;
-    height: 40%;
-   
-    position: relative;
-    top: -35px;
-}
-
-.khode-h2,.khode2-h2,.khode3-h2{
+.khode-h2,.khode2-h2{
     height: 100%;
     width: 100%;
     font-size: 30px;
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 40px;
+    top: -190px;
 }
-
-.khode-p,.khode2-h6,.khode3-h6{
+.khode3-h2{
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+}
+.khode-p,.khode2-h6{
     width: 100%;
     font-size: 16px;
     font-weight: 400;
-   
+   height: 50px;
     left: 40px;
-    position: relative;
-
+    position: absolute;
 }
-.first-button,.khode-button2,.khode-button3{
-    width: 80%;
-    margin: 10px;
-    height: 50%;
-   background-color: black;
-    position: relative;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    border: none;
-    left: 25px;
-    top: -10px;
-    text-transform: capitalize;
-    border-radius: 50px;
-
+.khode3-h6{
+    position:absolute;
+    top: 160px;
+    font-size: 16px;
+    font-weight: 400;
+    left: 40px;
 }
-.khode-button2{
-    position: relative;
-    top: -15px;
-    background-color: orange;
-    color: black;
-}
-.first-button:hover{
-    background-color: orange;
-        color: black;
-        cursor: pointer;
-}
-.khode-button2:hover{
-    background-color: black;
-    color: orange;
-    cursor: pointer;
+.khode-button3{
+    top: 150px;
 }
 .text2-h5,.th2,.th3{
     width: 100%;
     height: 10%;
-    
-    position: relative;
-    top: -20px;
+    position: absolute;
 }
-.khode-h5,.khode-th2,.khode-th3{
+.khode-h5,.khode-th2{
     width: 80%;
     height: 100%;
-    position: relative;
+    position: absolute;
     left: 20px;
-  
+    top: 100px;
 }
-.price-div,.price2-div,.price3-div{
+.khode-th3{
+    left: 20px;
+    top: 10px;
+    position:absolute;
+}
+.price-div,.price2-div{
     width: 100%;
     height: 90%;
-    
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    position: relative;
-    top: -20px;
-
+    position: absolute;
+   top:90px ;
+}
+.per-month{
+    top: 70px;
 }
 .per-month-2,.per-month3{
-    position: relative;
-    top: -149px;
+    position: absolute;
+   top:120px;
     left: 280px;
 }
 .khode-price,.khode-price3{
@@ -391,26 +371,106 @@ body , html{
     margin-left: 10px;
     font-size: 30px;
     text-align: center;
-    position: relative;
-    top: -30px;
+    position: absolute;
+    top: 50px;
     
 }
 .uls,.uls2,.uls3{
     width: 100%;
     height: 40%;
-    position: relative;
-    top: -100px;
+    position: absolute;
+    top: 350px;
     font-size: 17px;
     line-height: 28px;
 }
-.uls2,.uls3{
-    top: -230px;
+.uls{
+    top: 270px;
+}
+.uls2{
+    top: 350px;
+}
+.uls3{
+    top: 270px;
 }
 .p2{
-    position: relative;
-    top: -40px;
+    position: absolute;
+    top: 100px;
 }
-.khode-button3:hover{
-    background-color: orange;
-    color: black;
+.new-div{
+    position: absolute;
+    width: 305px;
+    height: 55px;
+    top: 662px;
+    left: 96px;
+    border-radius: 50px;
+    border: none;
 }
+.b1{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    font-size:16px ;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: none;
+    background-color: black;
+    color: white;
+    
+}
+.b1:hover{
+  background-color: palevioletred;
+  color: black;
+  cursor: pointer;
+}
+.new2{
+position: absolute;
+width:305px;
+height: 55px;
+top: 662px;
+left: 545px;
+border-radius: 50px;
+border: none;
+}
+.b2{
+ width: 100%;
+ height: 100%;
+ border-radius: 50px;
+ font-size: 18px;
+ font-weight: 650;
+ text-transform: capitalize;
+ border: none;
+ background-color: palevioletred;
+ color: black;
+}.b2:hover{
+    background-color: black;
+    color: palevioletred;
+    cursor: pointer;
+}
+.new3{
+    position: absolute;
+    width: 305px;
+    height: 55px;
+    top: 660px;
+    left: 995px;
+    border-radius: 50px;
+    border: none;
+}
+.b3{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.b3:hover{
+    background-color: palevioletred;
+    color:black;
+    cursor: pointer;
+
+}
+

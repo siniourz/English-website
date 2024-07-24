@@ -1251,7 +1251,7 @@ font-weight: 550;
     border-radius: 20px;
     margin: 20px;
     position: relative;
-    top: -410px;
+    top: -10px;
     left: 55px;
 }
 #last-h2{
@@ -1261,7 +1261,7 @@ font-weight: 550;
     height: 100%;
     text-align: center;
     left: 52px;
-   top: -560px;
+   top: -150px;
    font-family: Arial, Helvetica, sans-serif;
    color: white;
     
@@ -1274,7 +1274,7 @@ font-weight: 550;
     text-align: center;
     left:48px;
     font-family: Arial, Helvetica, sans-serif;
-    top: -750px;
+    top: -340px;
     color: white;
 
 }
@@ -1299,7 +1299,7 @@ font-weight: 550;
 .icon-insta{
 width: 60px;
 position: relative;
-top: 5px;
+top: -25px;
 height: 40px;
 opacity: 90%;
 
@@ -1308,7 +1308,7 @@ opacity: 90%;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top: -13px;
+    top: -43px;
     left: -8px;
     color: black;
     opacity: 90%;
@@ -1319,11 +1319,11 @@ opacity: 90%;
     position: relative;
     left: 10px;
     opacity: 90%;
-    top: 4px;
+    top:-20px;
 }
 .yt-link{
     position: relative;
-    top: -12px;
+    top: -37px;
     left: 15px;
     text-decoration: none;
     color: black;
@@ -1340,7 +1340,7 @@ opacity: 90%;
 .english-student{
     width: 1100px;
     height: 400px;
-    position: relative;
+    position: absolute;
     left: 130px;
     top: 50px;
     border-radius: 5px;

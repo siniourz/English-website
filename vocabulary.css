@@ -793,8 +793,8 @@ html , body{
     height: 505px;
     border-radius: 20px;
     background-color: aliceblue;
-    position: relative;
-    top: -1678px;
+    position: absolute;
+    top: 3100px;
     left: 1000px;
 }
 .first-text:hover .first-h1{
