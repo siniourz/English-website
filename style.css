@@ -233,8 +233,8 @@ border-radius: 10px;
     height: 90px;
     margin-left: 220px;
     border-radius: 20px;
-    border: none;
     border: solid rgb(255, 255, 255) 2px;
+    background-color: aliceblue;
     
 
 }
@@ -271,7 +271,7 @@ border-radius: 10px;
 .second h2{
     width: 1421px;
     height: 100px;
-    background-color: rgb(217, 214, 209);
+    background-color: aliceblue;
     text-align: center;
     margin-top: 10px;
     padding-top: 55px;
@@ -279,7 +279,7 @@ border-radius: 10px;
     font-weight: 900;
     font-size: xx-large;
     word-spacing: 5px;
-    color: rgb(56, 56, 56);
+    color: #384859;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -300,7 +300,7 @@ border-radius: 10px;
 
 }
 .b2{
-   background-color: rgb(217, 214, 209);
+   background-color: aliceblue;
    float: right;
    margin-top: -310px;
    position: relative;
@@ -314,7 +314,7 @@ border-radius: 10px;
     top: -280px;
     justify-content: center;
     position: relative;
-    background-color: rgb(217, 214, 209);
+    background-color: aliceblue;
 }
 .b4{
     position: relative;
