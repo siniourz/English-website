@@ -15,10 +15,6 @@
     margin:0 auto;
     background-color: #384859;
     border: none;
-
-
-
-
 }
 body{
     background-color: #384859;
@@ -28,12 +24,13 @@ body{
     margin:4px;
     text-transform: capitalize;
     
-    
-    
 }
 .nmd{
     float: left;
     height: 90px;
+    position: relative;
+    left: -40px;
+    
 
     
   
@@ -61,7 +58,7 @@ body{
  flex-wrap: wrap;
  margin-left: 4px;
  font-family: Arial, Helvetica, sans-serif;
-
+ background-color: #384859;
  left:80px;
  top: -90px;
  position: relative;
@@ -69,13 +66,13 @@ body{
 .navigations ul li{
   display: inline;
   vertical-align: middle;
-  margin: 0 55px 0px 52px;
+  margin: 10px 30px 10px 20px;
   font-size: 40px;
   width: 100%;
   padding: 10px;
   height: 50px;
   position: relative;
-  left: -50px;
+  left: 90px;
 }
 .navigations li a {
     text-decoration: none;
@@ -84,10 +81,10 @@ body{
     color: rgb(255, 255, 255);
     text-transform: capitalize;
     position: relative;
-    left: 40px;
+    left: 10px;
     width: 100%;
 }
- a{
+a{
 height: 100%;
 width: 100%;
 text-align: center;
@@ -95,6 +92,7 @@ vertical-align: middle;
 border-radius: 10px;
 
 }
+
 #l1:hover{
     color: #90be9a;
 
@@ -113,7 +111,7 @@ border-radius: 10px;
 
 }
 #l1:hover::before{
-    width: 200px;
+    width: 120px;
   
 }
 
@@ -135,7 +133,7 @@ border-radius: 10px;
 
 }
 #l2:hover::before{
-    width: 400px;
+    width: 300px;
 }
 #l3:hover{
     color: #90be9a;
@@ -155,7 +153,7 @@ border-radius: 10px;
 
 }
 #l3:hover::before{
-    width: 680px;
+    width: 480px;
 }
 #l4:hover{
     color: #90be9a;
@@ -175,7 +173,7 @@ border-radius: 10px;
 
 }
 #l4:hover::before{
-    width: 900px;
+    width: 600px;
 }
 #l5:hover{
     color: #90be9a;
@@ -195,7 +193,28 @@ border-radius: 10px;
 
 }
 #l5:hover::before{
-    width: 1150px;
+    width: 780px;
+}
+#l6:hover{
+    color: #90be9a;
+
+}
+#l6::before{
+    content: '';
+    display: block;
+    height: 8px;
+    width:100%;
+    background-color:#90be9a;
+    position: absolute;
+    top: -31px;
+    width: 0%;
+    transition: all ease-in-out 320ms;
+    border-radius: 8px;
+
+}
+#l6:hover::before{
+    width: 990px;
+  
 }
 .bigimg{
     width: 1500px;

@@ -83,7 +83,7 @@ body{
   padding: 10px;
   height: 50px;
   position: relative;
-  left: 300px;
+  left: 180px;
 }
 .navigations li a {
     text-decoration: none;
@@ -95,7 +95,7 @@ body{
 
 
 }
-#l1,#l2,#l3,#l4, a{
+a{
 height: 100%;
 width: 100%;
 text-align: center;
@@ -122,7 +122,7 @@ border-radius: 10px;
 
 }
 #l1:hover::before{
-    width: 100px;
+    width: 70px;
 }
 
 #l2:hover{
@@ -144,7 +144,7 @@ border-radius: 10px;
 
 }
 #l2:hover::before{
-    width:100px;
+    width:120px;
 }
 #l3:hover{
     color: #90be9a;
@@ -165,7 +165,7 @@ border-radius: 10px;
 
 }
 #l3:hover::before{
-    width: 120px;
+    width:70px;
 }
 #l4:hover{
     color: #90be9a;
@@ -187,6 +187,27 @@ border-radius: 10px;
 }
 #l4:hover::before{
     width: 140px;
+}
+#l5:hover{
+    color: #90be9a;
+
+}
+#l5::before{
+    content: '';
+    display: block;
+    height: 8px;
+    width:100%;
+    background-color:#90be9a;
+    position: absolute;
+    top: -31px;
+    left: 1px;
+    width: 0%;
+    transition: all ease-in-out 320ms;
+    border-radius: 8px;
+
+}
+#l5:hover::before{
+    width: 100px;
 }
 .first-background{
     width: 1440px auto auto;
