@@ -100,14 +100,17 @@ body,html{
     height: 460px;
     position: absolute;
     background-color: white;
-    border-radius: 20px;
-    left: 20px;
+    left: 0px;
     top: 140px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
 }
 .aks1{
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+
 }
 .right-div{
     width: 100%;
@@ -123,27 +126,28 @@ body,html{
 
 }
 .inside-div-right{
-    width: 97%;
+    width: 100%;
     height: 99%;
     background: linear-gradient(to left,#84a4c9 30%, aliceblue);
     border-top-left-radius: 70px;
     border-bottom-right-radius:75px;
     position: absolute;
-    top: px;
+    top: 0px;
     right: 5px;
-    opacity: 30%;
+  
 
 
 }
 .first-h1{
-  width: 500px;
+  width: 550px;
   position: absolute;
   right: 10px;
-  top: -20px;
+  top: -30px;
   text-align: center;
   height: 300px;
   font-size: 35px;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
  
 }
 .inside-div-right:hover .first-h1{
@@ -153,8 +157,9 @@ body,html{
   width: 300px;
   height: 200px;
   position: absolute;
-  right: 110px;
+  right: 130px;
   top: 250px;
+  opacity: 60%;
 
   text-align: center;
 
@@ -173,7 +178,7 @@ body,html{
     position: absolute;
     background: linear-gradient(to right,#384859,#84a4c9);
     border-radius: 50px;
-    right: 160px;
+    right: 190px;
     top: 560px;
 
 }
