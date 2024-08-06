@@ -1147,8 +1147,8 @@ font-weight: 550;
     position: absolute;
     top: -100px;
     width: 100%;
-    height: 300px;
-    background: linear-gradient(to bottom,#5d7762 10%,aliceblue);
+    height: 600px;
+    background: linear-gradient(to bottom,#5d7762 10%,rgb(215, 215, 215));
  
 }
 .khode-h1-3{
@@ -1179,6 +1179,7 @@ font-weight: 550;
   width: 100%;
   height: 100dvh;
   background-image: var(--bg-color);
+  
 }
 
 .category_container {
@@ -1193,6 +1194,7 @@ font-weight: 550;
   position: absolute;
   top: -60px;
   margin-left: 20px;
+  
 }
 
 @media (max-width:550px) {
@@ -1317,14 +1319,14 @@ font-weight: 550;
 .last-horizontal-line{
     width: 100%;
     height: 3px;
-    background-color: rgb(255, 255, 255);
+    background-color: #384859;
     position: absolute;
     bottom: 200px;  
 }    
 .last-footer {
     width: 100%;
     height: 500px;
-    background: linear-gradient(to bottom, aliceblue,#5d7762);
+    background: linear-gradient(to bottom, rgb(215, 215, 215),#5d7762);
     display: grid;
     position: relative;
     bottom: -4200px;
@@ -1341,7 +1343,8 @@ font-weight: 550;
 
 }
 table{
-font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 th{
     color: #384859;
