@@ -21,17 +21,17 @@
 
 }
 
-
 .nmd{
     float: left;
-    height: 90px;
+    height: 70px;
+    width: 110px;
     
   
 
 }
 #hlogo{
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
     margin: 5px 10px 0px 0px ;
     border-radius: 15px;
     display: table-cell;
@@ -59,10 +59,10 @@
 .navigations ul li{
     width: 100%;
     position: relative;
-    left: 150px;
+    left: 100px;
   display: inline;
   vertical-align: middle;
-  margin: 0 55px 0px 52px;
+  margin: 0 25px 0px 52px;
   font-size: 10px;
   width: 90px;
   padding: 10px;
@@ -94,7 +94,7 @@ border-radius: 10px;
     width:100%;
     background-color:#90be9a;
     position: absolute;
-    top: -31px;
+    top: -45px;
     left: 1px;
     width: 0%;
     transition: all ease-in-out 320ms;
@@ -116,7 +116,7 @@ border-radius: 10px;
     width:1000%;
     background-color:#90be9a;
     position: absolute;
-    top: -31px;
+    top: -45px;
     left: 1px;
     width: 0%;
     transition: all ease-in-out 320ms;
@@ -137,7 +137,7 @@ border-radius: 10px;
     width:100%;
     background-color:#90be9a;
     position: absolute;
-    top: -31px;
+    top: -45px;
     left: 1px;
     width: 0%;
     transition: all ease-in-out 320ms;
@@ -158,7 +158,7 @@ border-radius: 10px;
     width:100%;
     background-color:#90be9a;
     position: absolute;
-    top: -31px;
+    top: -45px;
     left: 1px;
     width: 0%;
     transition: all ease-in-out 320ms;
@@ -179,7 +179,7 @@ border-radius: 10px;
     width:100%;
     background-color:#90be9a;
     position: absolute;
-    top: -31px;
+    top: -45px;
     left: 1px;
     width: 0%;
     transition: all ease-in-out 320ms;
@@ -188,6 +188,27 @@ border-radius: 10px;
 }
 #l5:hover::before{
     width: 130px;
+}
+#l6:hover{
+    color: #90be9a;
+
+}
+#l6::before{
+    content: '';
+    display: block;
+    height: 8px;
+    width:100%;
+    background-color:#90be9a;
+    position: absolute;
+    top: -45px;
+    left: 1px;
+    width: 0%;
+    transition: all ease-in-out 320ms;
+    border-radius: 8px;
+
+}
+#l6:hover::before{
+    width: 120px;
 }
 body , html{
     max-width: 1420px;
@@ -211,7 +232,7 @@ body , html{
 .khode-background{
     width: 1420px;
     height: 900px;
-    position: relative;
+    position: absolute;
 
 }
 #bg{
@@ -219,11 +240,11 @@ body , html{
     height: 900px;
 }
 .first-text{
-    position: relative;
+    position: absolute;
     width: 1000px;
     height: 120px;
     background-color: rgb(0, 0, 0);
-    top: -850px;
+    top: 50px;
     left: 210px;
     opacity: 40%;
     border-radius: 20px;
@@ -235,8 +256,8 @@ body , html{
     opacity: 100%;
     font-size:50px ;
     text-align: center;
-    position: relative;
-    top: 25px;
+    position: absolute;
+    top:px;
     opacity: 125%;
     
 }
@@ -244,23 +265,26 @@ body , html{
     width: 380px;
     height: 550px;
     background-color: rgb(255, 255, 255);
-    position: relative;
+    position: absolute;
     left: 60px;
-    top: -795px;
+    top: 255px;
     border-radius: 50px;
     opacity: 80%;
+    display: grid;
+    
 }
 .second-box{
-    position: relative;
+    position: absolute;
     opacity: 90%;
     height: 550px;
-    left: 510px;
-    top: -1345px;
+    left: 520px;
+    top: 255px;
+    transition-duration: 0.5s;
 }
 .third-box{
     float: right;
-    left: -80px;
-    top: -1895px;
+    left: 980px;
+    top: 255px;
     height: 550px;
 }
 .per-month,.per-month-2,.per-month3{
@@ -448,7 +472,7 @@ position: absolute;
 width:305px;
 height: 55px;
 top: 662px;
-left: 545px;
+left: 555px;
 border-radius: 50px;
 border: none;
 }
@@ -462,7 +486,8 @@ border: none;
  border: none;
  background-color: palevioletred;
  color: black;
-}.b2:hover{
+}
+.b2:hover{
     background-color: black;
     color: palevioletred;
     cursor: pointer;
@@ -472,7 +497,7 @@ border: none;
     width: 305px;
     height: 55px;
     top: 660px;
-    left: 995px;
+    left: 1015px;
     border-radius: 50px;
     border: none;
 }
@@ -495,3 +520,9 @@ border: none;
 
 }
 
+.second-box:hover{
+    width: 500px;
+    left: 460px;
+    transition: ease-in-out 0.2s;
+    background-color: #cacaca;
+}

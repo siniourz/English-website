@@ -382,3 +382,120 @@ body,html{
 .right-text{
     left: 990px;
 }
+.first-small-vertical-box,.second-vertical-box,.third-vertical-box,.last-vertical-box{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    top: 700px;
+    left: 1100px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}
+.second-vertical-box{
+    top: 900px;
+}
+.third-vertical-box{
+    top: 1220px;
+}
+.last-vertical-box{
+    top: 1550px;
+}
+.first-vbox,.second-vbox,.third-vbox,.last-vbox{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background-color: aliceblue;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.first-vbox{
+    top: 20px;
+}
+.first-ul li{
+    width: 200px;
+    height: 50px;
+   font-size: 18px;
+   padding-top: 10px;
+}
+.first-ul li:hover{
+    text-decoration: underline;
+    color: #5d7762;
+}
+.b1,.b2,.b3{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    text-transform: capitalize;
+}
+.b2{
+    position: relative;
+    top: -15px;
+    left: -000px;
+}
+.b3{
+    position: relative;
+    left: 0px;
+    top: -35px;
+}
+.second-vertical-box,.third-vertical-box,.last-vertical-box{
+    height: 300px;
+    margin-top: 20px;
+}
+
+.second-vbox{
+    top: 30px;
+
+}
+.div-for-image,.div-for-image2{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+  
+}
+.image-1,.image-2{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}
+.h3-for-text{
+    width: 100%;
+    height: 30%;
+    font-size: 22px;
+    text-align: center;
+    color: #384859;
+  
+}
+.h3-for-text2{
+    left: 10px;
+    position: relative;
+}
+.last-text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+.last-h3{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: -px;
+    text-transform: capitalize;
+}
+.last-h4{
+    position: relative;
+    top: px;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.last-h4 li:hover{
+    text-decoration: underline;
+}
