@@ -67,7 +67,7 @@ body{
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-   
+   position: absolute;
    
 }
 .mobile-menu{
@@ -91,6 +91,61 @@ body{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     transition: ease-in-out 0.4s;
+}
+.mobile{
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    background-color: #5d7762;
+    display: none;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.title-m{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.h1-m{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.m-four-sign {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    height: 400px;
+    gap: 6px;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    top: 20px; /* Default position */
+    transition: top 0.4s ease-in-out; /* Smooth transition when moving */
+}
+
+.m-four-sign div{
+ width: 200px;
+ height: 180px;
+ background-color: rgb(225, 225, 225);
+ border-radius: 10px;
+}
+.pt-img,.ielts-img,.lv-img,.self-img{
+    width: 50%;
+    height: 60%;
+    margin-top: 20px;
+    margin-left:  50px;
+
+}
+
+.m-pt,.m,.m-lv,.m-self{
+    width: 100%;
+    height: 40%;
+
+    font-size: 20px;
+    text-align: center;
+
 }
 .nmd{
     float: left;
@@ -1528,6 +1583,7 @@ margin-top: -22px;
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
   }
   .navbar{
@@ -1553,6 +1609,15 @@ margin-top: -22px;
     display: flex;
     
   }
-  
+  .mobile{
+    display: block;
+  }
+  .m-four-sign{
+    display: grid;
+  }
+  .m-second{
+    display: block;
+   
+  }
 
 }
