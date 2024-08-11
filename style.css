@@ -117,7 +117,7 @@ body{
     grid-template-rows: repeat(2, 1fr);
     width: 100%;
     height: 400px;
-    gap: 6px;
+    gap: 3px;
     position: relative;
     align-items: center;
     justify-items: center;
@@ -126,9 +126,9 @@ body{
 }
 
 .m-four-sign div{
- width: 200px;
+ width: 180px;
  height: 180px;
- background-color: rgb(225, 225, 225);
+ background-color: aliceblue;
  border-radius: 10px;
 }
 .pt-img,.ielts-img,.lv-img,.self-img{
@@ -143,10 +143,309 @@ body{
     width: 100%;
     height: 40%;
 
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 
 }
+.m-text-parts{
+    width: 100%;
+    display: none;
+    height: 900px;
+    background-color: aliceblue;
+    margin-top: 40px;
+
+}
+.m-first-box{
+    width: 100%;
+    height:20% ;
+    margin-top: 5%;
+}
+.m-right-div{
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin-right: 0px;
+    
+    
+}
+.m-left-div{
+    width: 50%;
+    margin: 0;
+    height: 100%;
+  
+
+}
+.m-top{
+    width: 100%;
+    height: 30%;
+ 
+    margin-top:-20px;
+    margin-left: -40px;
+
+}
+.m-topic-vocab{
+    max-width: 220px;
+    height: 100%;
+
+    text-align: center;
+    font-size: 35px;
+    color: #384859;
+
+}
+.m-btt{
+    width: 100%;
+    height: calc(100% - 50%);
+    margin-top: -17px;
+
+}
+.m-ul{
+    width: 85%;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+    list-style: none;
+    color: #6d8fb4;
+    margin-left: -65px;
+
+   
+}
+.m-vocab-icon{
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    
+}
+.m-writing-icon{
+    object-fit:  cover;
+    max-width: 90%;
+    height: 90%;
+    margin-top: -10px;
+}
+.m-second-box,.m-third-box,.m-fourth-box{
+    width:100%;
+    height: 20%;
+    margin:0;
+}
+.m-grammer-div{
+    max-width: 50%;
+    height: 100%;
+    float: right;
+}
+.m-grammer-icon{
+    max-width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.m-grammer-topic{
+    width: 50%;
+    height: fit-content;
+    font-size: 35px;
+    color: #384859;
+    margin-top: 0;
+    margin-left: 30px;
+}
+.m-grammer-ul{
+    width: fit-content;
+    height: 50%;
+    text-align: center;
+    list-style: none;
+    color: #6d8fb4;
+    margin-top: -5px;
+}
+.m-Skills-div{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 0;
+}
+.m-writing-icon{
+    max-width: 90%;
+    max-height: 90%;
+}
+.m-right-w{
+    width: 50%;
+    height: 100%;
+ 
+    margin-top: 0;
+    float: right;
+}
+.m-skills-topic{
+    width: 100%;
+    height: 40%;
+    margin-left: -30px;
+    margin-top: 10px;
+    color: #384859;
+    text-align: center;
+}
+.m-skills-ul{
+    width: fit-content;
+    height: 50%;
+    margin-top: -35px;
+    font-size: 16px;
+    list-style: none;
+    margin-left: -15px;
+    color: #6d8fb4;
+    text-align: center;
+
+}
+.m-right-speaking-div{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.m-speaking-icon-2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.m-left-speaking-div{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.m-speaking-topic-h1{
+   width: 100%; 
+   font-size: 35px;
+   color: #384859;
+   text-align: center;
+   margin-top: 20px;
+}
+.m-speaking-ul{
+    width: 100%;
+    margin-top: -10px;
+    list-style: none;
+    color: #6d8fb4;
+    font-size: 16px;
+}
+.m-div-for-bottom{
+    width: 100%;
+    height: 132px;
+    background-color: #5d7762;
+    margin-top: 30px;
+}
+.m-free-trial{
+    width: 100%;
+    height: 55%;
+    opacity: 90%;
+    vertical-align: middle;
+    text-align: center;
+    font-size:25px;
+    color: aliceblue;
+    padding-top: 10px;
+    background-color: #384859;
+}
+#m-t-button{
+    max-width: 200px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    position: relative;
+    top: -7px;
+    left: 38%;
+    
+}
+.m-free-button{
+    max-width: 200px;
+    height: 30px;
+    border: none;
+    background-color: aliceblue;
+    font-size: 14px;
+    color: #384859;
+    border-radius: 20px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.m-last-div{
+    display: none;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom,#5d7762 70%, #ffffff);
+
+}
+.m-last-horizontal-div{
+    width: 100%;
+    height: 2px;
+    background-color: #384859;
+    margin-top: 5px;
+}
+.m-english-test-div,.m-english-test-div-2{
+    width: 80%;
+    height: 140px;
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-top-right-radius: 27%;
+    border-bottom-left-radius: 27%;
+}
+.m-english-test-div-2{
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 27%;
+    border-bottom-right-radius: 27%;
+    margin-top: 40px;
+}
+.m-english-test,.m-english-test-2{
+    width: 90%;
+    height: 60%;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 5%;
+    padding-top:10px;
+}
+.m-english-test-2{
+    width: 80%;
+    margin-left: 10%;
+}
+.m-english-test-detail,.m-english-test-detail-2{
+    width: 80%;
+    height: 40%;
+    opacity: 60%;
+    margin-left: 13%;
+    margin-top: -30px;
+    font-weight: 600;
+}
+.m-english-test-detail-2{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -40px;
+    font-size: 14px;
+}
+.m-mine{
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    margin-top: 113px;
+    opacity: 70%;
+}
+.m-main-logo{
+    width: 20%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 5%;
+ 
+}
+.m-ceo{
+    width: 50%;
+    float: right;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    margin-right: 16%;
+    font-size: 11px;
+    padding-top: 5px;
+    opacity: 70%;
+    
+
+}
+#m-Sina{
+    vertical-align: middle;
+    color: black;
+}
+
 .nmd{
     float: left;
     height: 90px;
@@ -1619,5 +1918,12 @@ margin-top: -22px;
     display: block;
    
   }
+  .m-text-parts{
+    display: block;
+  }
+  .m-last-div{
+    display: block;
+  }
+
 
 }
