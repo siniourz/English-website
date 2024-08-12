@@ -438,7 +438,7 @@ body{
     font-size: 15px;
     margin-left: 35%;
     position: relative;
-    top: -40%;
+    top: -55px;
     text-align: center;
    text-decoration: underline;
 
@@ -488,6 +488,7 @@ body{
 .m-portfolio{
     width: 100%;
     height: 50px;
+    display: none;
     background-color: white;
 }
 .m-img07{
@@ -2020,6 +2021,9 @@ margin-top: -22px;
   }
   .m-last-dance{
     display: grid;
+  }
+  .m-portfolio{
+    display: block;
   }
 
 
