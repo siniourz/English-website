@@ -101,7 +101,7 @@
 .m-vocab-2{
     width: 100%;
     text-align: center;
-    height: 105px;
+    height: 95px;
     position: absolute;
     top: 110px;
     background-color: rgb(255, 255, 255);
@@ -119,6 +119,55 @@
     transition: all ease 0.6s;
 
 }
+/* styles.css */
+
+.m-vocab-topic{
+    width: 200px;
+    height: 30px;
+    background-color: #5d7762;
+    position: absolute;
+    right: 0;
+    top:320px;
+    text-align: center;
+    padding-top: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    opacity: 0; /* Start with hidden */
+    visibility: hidden; /* Hide from view */
+    transition: opacity 1s ease, visibility 1s ease;
+}
+
+.vocab-first-box {
+    width: 90%;
+    margin-left: 5%;
+    height: 130px;
+    background-color: #556e88;
+    position: absolute;
+    top: 530px;
+    border-radius: 20px;
+    opacity: 0; /* Start with hidden */
+    visibility: hidden; /* Hide from view */
+    transition: opacity 3s ease-in-out;
+}
+.m-vocab-img2{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+    border-top-left-radius: 20px;
+}
+.m-vocab-h1{
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    text-decoration: underline;
+}
+
 .dheader{
     background-color: #583859;
     width: 100% ;
