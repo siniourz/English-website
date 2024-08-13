@@ -75,98 +75,6 @@
     margin-top: 20px;
     border-radius: 20px;
 }
-.m-test{
-    display: none;
-    width: 100%;
-    height: 500px;
-    background-color: rgb(255, 255, 255);
-    font-size: 20px;
-    color: pink;
-    position: absolute;
-    top: 90px;
-    transition: background-color 1s ease, height 0.5s ease, font-size 2s ease;
-
-}
-.m-vocab-1{
-    width: 100%;
-    height: 100px;
-    color: #384859;
-    font-size: 50px;
-    position: relative;
-    top:-20px;
-    padding-top: 20px;
-    text-align: center;
-    transition: all ease 0.4s;
-}
-.m-vocab-2{
-    width: 100%;
-    text-align: center;
-    height: 95px;
-    position: absolute;
-    top: 110px;
-    background-color: rgb(255, 255, 255);
-    color: #384859;
-    transition: all ease 0.8s;
-
-}
-.m-vocab-3{
-    width: 100%;
-    height: 200px;
-    object-fit: fill;
-    position: relative;
-    top: 70px;
-    bottom: 0;
-    transition: all ease 0.6s;
-
-}
-/* styles.css */
-
-.m-vocab-topic{
-    width: 200px;
-    height: 30px;
-    background-color: #5d7762;
-    position: absolute;
-    right: 0;
-    top:320px;
-    text-align: center;
-    padding-top: 10px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    font-size: 20px;
-    color: aliceblue;
-    opacity: 0; /* Start with hidden */
-    visibility: hidden; /* Hide from view */
-    transition: opacity 1s ease, visibility 1s ease;
-}
-
-.vocab-first-box {
-    width: 90%;
-    margin-left: 5%;
-    height: 130px;
-    background-color: #556e88;
-    position: absolute;
-    top: 530px;
-    border-radius: 20px;
-    opacity: 0; /* Start with hidden */
-    visibility: hidden; /* Hide from view */
-    transition: opacity 3s ease-in-out;
-}
-.m-vocab-img2{
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
-    float: left;
-    border-top-left-radius: 20px;
-}
-.m-vocab-h1{
-    width: 50%;
-    height: 100%;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    float: right;
-    text-decoration: underline;
-}
 
 .dheader{
     background-color: #583859;
@@ -182,13 +90,85 @@
     background-color: #384859;
     border: none;
     position: absolute;
-
-
-
-
+}
+.m-vocab-div-for-img{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    display: none;
+}
+.m-vocab-img1{
+    width: 100%;
+    height: 100%;
+}
+.m-vocab-topic-div{
+    width: 90%;
+    margin-left: 5%;
+    height: 100px;
+    background-color: #5d7762;
+    position: absolute;
+    top: 150px;
+    border-radius: 20px;
+}
+.m-vocab-topic{
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+}
+.m-vocab-box{
+    width: 100%;
+    height: 900px;
+    margin: 0;
+    display: none;
+    background-color: #384859;
+    
+}
+.m-vocab-first-box{
+    width: 96%;
+    margin-left: 2%;
+    background-color:#6786a8 ;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 290px;
 }
 
+.m-vocab-img2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.m-vocab-img3{
+    float: right;
+}
+.m-vocab-t1{
+    width: 50%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+.m-vocab-t1 span{
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    color: aliceblue;
+    opacity: 60%;
+    margin-top: 10px;
 
+}
 .nmd{
     float: left;
     height: 90px;
@@ -1098,7 +1078,10 @@ body{
       .mobile{
         display: block;
       }
-      .m-test{
+      .m-vocab-div-for-img{
+        display: block;
+      }
+      .m-vocab-box{
         display: block;
       }
 
