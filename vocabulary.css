@@ -126,13 +126,13 @@
     height: 900px;
     margin: 0;
     display: none;
-    background-color: #384859;
+    background: linear-gradient(to bottom, #384859 50%, aliceblue);
     
 }
 .m-vocab-first-box{
     width: 96%;
     margin-left: 2%;
-    background-color:#7290af ;
+    background-color:#5B7C99;
     height: 150px;
     border-radius: 10px;
     margin-top: 310px;
@@ -155,10 +155,10 @@
     float: right;
     height: fit-content;
     text-align: center;
-    color: aliceblue;
+    color: #ffffff;
     font-size: 30px;
     padding-top: 20px;
-    text-decoration: underline;
+
 }
 span{
     float: right;
@@ -173,13 +173,13 @@ span{
 .m-vocab-second-box{
     width: 96%;
     margin-left: 2%;
-    background-color:#7290af ;
+    background-color:#485872 ;
     height: 150px;
     border-radius: 10px;
     margin-top: 40px;
     opacity: 0;
     visibility: hidden;
-    transition: opacity ease 4s, visibility ease 10s,margin-top ease 2s;
+    transition: opacity ease 4s, visibility ease 3s,margin-top ease 2s;
 }
 .m-vocab-img3{
     width: 40%;
@@ -193,18 +193,21 @@ span{
     float: right;
     height: fit-content;
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     padding-top: 20px;
-    text-decoration: underline;
+  
 }
 .m-vocab-third-box{
     width: 96%;
     margin-left: 2%;
-    background-color:#7290af ;
+    background-color:#34344A ;
     height: 150px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 60px;
+
+    opacity: 0;
+    transition: padding-top ease 1s, visibility ease 3s, opacity ease 5s;
 }
 .m-vocab-img4{
     width: 40%;
@@ -219,12 +222,11 @@ span{
     float: right;
     height: fit-content;
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: 30px;
-    padding-top: 50px;
-    text-decoration: underline;
-    visibility: hidden;
-    transition: padding-top ease 1s, visibility ease 3s;
+    padding-top: 20px;
+
+   
 }
 
 .nmd{

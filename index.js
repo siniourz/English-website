@@ -37,7 +37,7 @@ function toggleMobileMenu(element) {
 window.addEventListener('scroll', () => {
     const firstbox=document.querySelector('.m-vocab-first-box');
     const secondbox=document.querySelector('.m-vocab-second-box');
-    const header1=document.querySelector('.m-vocab-t3');
+    const thirdbox=document.querySelector('.m-vocab-third-box');
     const scrollTop = window.scrollY;
 
 
@@ -51,8 +51,9 @@ window.addEventListener('scroll', () => {
         secondbox.style.marginTop='20px';
         secondbox.style.visibility='visible';
 
-        header1.style.paddingTop='20px';
-        header1.style.visibility='visible';
+        thirdbox.style.marginTop='20px';
+        thirdbox.style.opacity='1';
+        thirdbox.style.visibility='visible';
 
     } else {
 
