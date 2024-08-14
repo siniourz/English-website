@@ -331,7 +331,7 @@ span{
     color: aliceblue;
     font-weight: 200;
 }
-.m-vocab-h3{
+.m-vocab-h3-new{
     width: 290px;
     height: fit-content;
     background-color: rgb(66, 66, 66);
@@ -340,6 +340,7 @@ span{
     position: absolute;
     border-radius: 20px;
     left: 70px;
+    color: aliceblue;
 }
 .m-vocab-last-img{
     width: 100%;
