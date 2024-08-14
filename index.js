@@ -4,6 +4,7 @@ function toggleMobileMenu(element) {
     const main = document.querySelector('.m-four-sign');
     const bg = document.querySelector('.m-text-parts');
     const signDiv = document.querySelector('.m-vocab-div-for-img');
+    const avali=document.querySelector('.m-vocab-pp');
     const textPartsDiv = document.querySelector('.m-vocab-box');
     const boxes=document.querySelector('.m-vocab-box');
 
@@ -16,23 +17,25 @@ function toggleMobileMenu(element) {
         if (bg) bg.style.marginTop = '170px';
         
 
+        if (avali) avali.style.opacity='0';
 
         if (signDiv) {
             signDiv.style.top = '350px'; 
         }
         if (textPartsDiv) textPartsDiv.style.marginTop = '230px';
 
-        if(boxes)boxes.style.marginTop='290px';
+        if(boxes)boxes.style.marginTop='200px';
 
     
     } else {
         menu.style.display = 'none';
 
         if (main) main.style.top = '20px';
+        if(avali)avali.style.opacity='1';
         if (bg) bg.style.marginTop = '30px';
-        if (signDiv) signDiv.style.top = '100px';
+        if (signDiv) signDiv.style.top = '350px';
         if (textPartsDiv) textPartsDiv.style.marginTop = '0px';
-        if(boxes)boxes.style.marginTop='0px';
+        if(boxes)boxes.style.marginTop='200px';
 
     }
 }
@@ -54,6 +57,7 @@ window.addEventListener('scroll', () => {
     const fourthbox = document.querySelector('.m-vocab-second-part');
     const imgOne = document.querySelector('.m-vocab-img5');
     const topic = document.querySelector('.m-vocab-topic-div');
+    const khodeTopic=document.querySelector('.m-vocab-topic');
     const scrollTop = window.scrollY;
 
     if (scrollTop > 0) {
@@ -66,7 +70,14 @@ window.addEventListener('scroll', () => {
         bg.style.height = '250px';
         bg.style.top = '350px';
 
-        topic.style.top = '150px';
+        khodeTopic.style.fontSize='36px';
+        
+        topic.style.top = '190px';
+        topic.style.width='80%';
+        topic.style.marginLeft='10%';
+        topic.style.height='60px';
+
+
         back.style.marginTop = '200px';
 
         firstbox.style.opacity = '1';
