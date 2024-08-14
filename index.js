@@ -40,63 +40,53 @@ function toggleMobileMenu(element) {
 
 // script.js
 
+let hasScrolledDown = false;  // Flag to track if the changes for scrolling down have been applied
+
 window.addEventListener('scroll', () => {
-    const bg=document.querySelector('.m-vocab-div-for-img');
-    const back=document.querySelector('.m-vocab-box');
-    const firstbox=document.querySelector('.m-vocab-first-box');
-    const secondbox=document.querySelector('.m-vocab-second-box');
-    const thirdbox=document.querySelector('.m-vocab-third-box');
-    const fourthbox=document.querySelector('.m-vocab-second-part');
-    const imgOne=document.querySelector('.m-vocab-img5');
-    const topic=document.querySelector('.m-vocab-topic-div');
+    if (hasScrolledDown) return;  // Exit if changes have already been applied
+
+    const avalin=document.querySelector('.m-vocab-pp');
+    const bg = document.querySelector('.m-vocab-div-for-img');
+    const back = document.querySelector('.m-vocab-box');
+    const firstbox = document.querySelector('.m-vocab-first-box');
+    const secondbox = document.querySelector('.m-vocab-second-box');
+    const thirdbox = document.querySelector('.m-vocab-third-box');
+    const fourthbox = document.querySelector('.m-vocab-second-part');
+    const imgOne = document.querySelector('.m-vocab-img5');
+    const topic = document.querySelector('.m-vocab-topic-div');
     const scrollTop = window.scrollY;
 
-
     if (scrollTop > 0) {
-     
-        bg.style.height='250px';
-        bg.style.top='350px';
- 
-        topic.style.top='150px';
+        // Apply the changes when scrolling down for the first time
 
-        back.style.marginTop='200px';
-
-
-        firstbox.style.opacity='1';
-        firstbox.style.visibility='visible';
-        firstbox.style.marginTop='320px';
-
-        secondbox.style.opacity='1';
-        secondbox.style.marginTop='20px';
-        secondbox.style.visibility='visible';
-
-        thirdbox.style.marginTop='20px';
-        thirdbox.style.opacity='1';
-        thirdbox.style.visibility='visible';
-
-        fourthbox.style.marginTop='0px';
-        fourthbox.style.opacity='1';
-        fourthbox.style.visibility='visible';
-
-
-        imgOne.style.height='300px';
-
-    } else {
-        bg.style.top='100px';
+        avalin.style.opacity='1';
 
 
 
-        back.style.marginTop='0px';
+        bg.style.height = '250px';
+        bg.style.top = '350px';
 
+        topic.style.top = '150px';
+        back.style.marginTop = '200px';
 
-        firstbox.style.opacity='1';
-        firstbox.style.marginTop='290px';
+        firstbox.style.opacity = '1';
+        firstbox.style.visibility = 'visible';
+        firstbox.style.marginTop = '320px';
 
+        secondbox.style.opacity = '1';
+        secondbox.style.marginTop = '20px';
+        secondbox.style.visibility = 'visible';
 
-        fourthbox.style.marginTop='30px';
+        thirdbox.style.marginTop = '20px';
+        thirdbox.style.opacity = '1';
+        thirdbox.style.visibility = 'visible';
 
+        fourthbox.style.marginTop = '0px';
+        fourthbox.style.opacity = '1';
+        fourthbox.style.visibility = 'visible';
 
-        
+        imgOne.style.height = '300px';
 
+        hasScrolledDown = true;  // Set the flag to true to prevent further changes
     }
 });
