@@ -96,12 +96,12 @@
 }
 .m-vocab-div-for-img{
     width: 100%;
-    height: 600px;
+    height: 650px;
     margin: 0;
     position: absolute;
     top: 100px;
     display: none;
-    transition: height ease 1s;
+    transition: all ease 1s;
 }
 .m-vocab-img1{
     width: 100%;
@@ -129,7 +129,7 @@
 }
 .m-vocab-box{
     width: 100%;
-    height: 800px;
+    height: 830px;
     margin: 0;
     display: none;
     background: linear-gradient(to bottom, #384859 50%, aliceblue);

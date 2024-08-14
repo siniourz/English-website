@@ -42,6 +42,7 @@ function toggleMobileMenu(element) {
 
 window.addEventListener('scroll', () => {
     const bg=document.querySelector('.m-vocab-div-for-img');
+    const back=document.querySelector('.m-vocab-box');
     const firstbox=document.querySelector('.m-vocab-first-box');
     const secondbox=document.querySelector('.m-vocab-second-box');
     const thirdbox=document.querySelector('.m-vocab-third-box');
@@ -54,13 +55,16 @@ window.addEventListener('scroll', () => {
     if (scrollTop > 0) {
      
         bg.style.height='250px';
+        bg.style.top='350px';
  
         topic.style.top='150px';
+
+        back.style.marginTop='200px';
 
 
         firstbox.style.opacity='1';
         firstbox.style.visibility='visible';
-        firstbox.style.marginTop='290px';
+        firstbox.style.marginTop='320px';
 
         secondbox.style.opacity='1';
         secondbox.style.marginTop='20px';
@@ -70,7 +74,7 @@ window.addEventListener('scroll', () => {
         thirdbox.style.opacity='1';
         thirdbox.style.visibility='visible';
 
-        fourthbox.style.marginTop='30px';
+        fourthbox.style.marginTop='0px';
         fourthbox.style.opacity='1';
         fourthbox.style.visibility='visible';
 
@@ -78,8 +82,20 @@ window.addEventListener('scroll', () => {
         imgOne.style.height='300px';
 
     } else {
+        bg.style.top='100px';
+
+
+
+        back.style.marginTop='0px';
+
 
         firstbox.style.opacity='1';
+        firstbox.style.marginTop='290px';
+
+
+        fourthbox.style.marginTop='30px';
+
+
         
 
     }
