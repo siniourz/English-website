@@ -266,9 +266,9 @@ span{
 }
 .m-vocab-img5{
     width: 100%;
-    height: 700px;
+    height: 600px;
     object-fit: cover;
-    transition: height ease 2s;
+    transition: height ease 1.5s;
 }
 .m-vocab-t4{
     width: 100%;
@@ -276,6 +276,76 @@ span{
     text-align: center;
     font-size: 40px;
     color: #5d7762;
+}
+.m-vocab-third-part{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    margin-top: 0px;
+    background-color: #4a6350;
+}
+.m-vocab-img6{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.m-vocab-t5{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+    
+}
+.m-vocab-how-div{
+    width: 100%;
+    height: 850px;
+    margin-top: 50px;
+    background-color: #384859;
+    
+}
+.m-vocab-t6{
+    width: 96%;
+    margin-left: 2%;
+    background-color: #546372;
+    height: 80px;
+    text-align: center;
+    font: 50px;
+    color: aliceblue;
+    opacity: 90%;
+    text-transform: capitalize;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-top: -20px;
+
+}
+.m-vocab-h4{
+    width: 70%;
+    margin-left: 15%;
+    height: 60px;
+    background-color: #546372;
+    margin-top: -50px;
+    text-align: center;
+    opacity: 90%;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 200;
+}
+.m-vocab-h3{
+    width: 290px;
+    height: fit-content;
+    background-color: rgb(66, 66, 66);
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    border-radius: 20px;
+    left: 70px;
+}
+.m-vocab-last-img{
+    width: 100%;
+    height: 670px;
+    object-fit: cover;
+    margin-top: 10px;
 }
 
 
