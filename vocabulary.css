@@ -135,7 +135,10 @@
     background-color:#7290af ;
     height: 150px;
     border-radius: 10px;
-    margin-top: 290px;
+    margin-top: 310px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity ease 3s, visibility ease 9s, margin-top ease 1s;
 }
 
 .m-vocab-img2{
@@ -173,7 +176,10 @@ span{
     background-color:#7290af ;
     height: 150px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity ease 4s, visibility ease 10s,margin-top ease 2s;
 }
 .m-vocab-img3{
     width: 40%;
@@ -215,8 +221,10 @@ span{
     text-align: center;
     color: aliceblue;
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 50px;
     text-decoration: underline;
+    visibility: hidden;
+    transition: padding-top ease 1s, visibility ease 3s;
 }
 
 .nmd{
