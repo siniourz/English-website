@@ -246,8 +246,9 @@ span{
 }
 .m-vocab-img5{
     width: 100%;
-    height: 300px;
+    height: 700px;
     object-fit: cover;
+    transition: height ease 2s;
 }
 .m-vocab-t4{
     width: 100%;

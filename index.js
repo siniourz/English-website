@@ -45,6 +45,7 @@ window.addEventListener('scroll', () => {
     const secondbox=document.querySelector('.m-vocab-second-box');
     const thirdbox=document.querySelector('.m-vocab-third-box');
     const fourthbox=document.querySelector('.m-vocab-second-part');
+    const imgOne=document.querySelector('.m-vocab-img5');
     const scrollTop = window.scrollY;
 
 
@@ -65,6 +66,9 @@ window.addEventListener('scroll', () => {
         fourthbox.style.marginTop='30px';
         fourthbox.style.opacity='1';
         fourthbox.style.visibility='visible';
+
+
+        imgOne.style.height='300px';
 
     } else {
 
