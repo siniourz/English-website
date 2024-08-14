@@ -41,16 +41,23 @@ function toggleMobileMenu(element) {
 // script.js
 
 window.addEventListener('scroll', () => {
+    const bg=document.querySelector('.m-vocab-div-for-img');
     const firstbox=document.querySelector('.m-vocab-first-box');
     const secondbox=document.querySelector('.m-vocab-second-box');
     const thirdbox=document.querySelector('.m-vocab-third-box');
     const fourthbox=document.querySelector('.m-vocab-second-part');
     const imgOne=document.querySelector('.m-vocab-img5');
+    const topic=document.querySelector('.m-vocab-topic-div');
     const scrollTop = window.scrollY;
 
 
     if (scrollTop > 0) {
      
+        bg.style.height='250px';
+ 
+        topic.style.top='150px';
+
+
         firstbox.style.opacity='1';
         firstbox.style.visibility='visible';
         firstbox.style.marginTop='290px';
