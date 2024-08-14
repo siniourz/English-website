@@ -123,7 +123,7 @@
 }
 .m-vocab-box{
     width: 100%;
-    height: 900px;
+    height: 800px;
     margin: 0;
     display: none;
     background: linear-gradient(to bottom, #384859 50%, aliceblue);
@@ -228,6 +228,32 @@ span{
 
    
 }
+.m-vocab-second-part{
+    width: 100%;
+    background-color: #5d7762;
+    margin: 0;
+    height: 400px;
+    display: none;
+    margin-top: 100px;
+    opacity: 0;
+    visibility: hidden;
+    transition: ease opacity 1s, margin-top ease 1s , visibility ease 5s;
+
+
+}
+.m-vocab-img5{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.m-vocab-t4{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
 
 .nmd{
     float: left;
@@ -1142,6 +1168,9 @@ body{
         display: block;
       }
       .m-vocab-box{
+        display: block;
+      }
+      .m-vocab-second-part{
         display: block;
       }
 

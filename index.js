@@ -5,6 +5,8 @@ function toggleMobileMenu(element) {
     const bg = document.querySelector('.m-text-parts');
     const signDiv = document.querySelector('.m-vocab-div-for-img');
     const textPartsDiv = document.querySelector('.m-vocab-box');
+    const boxes=document.querySelector('.m-vocab-box');
+
    
 
     if (element.classList.contains('open')) {
@@ -12,13 +14,15 @@ function toggleMobileMenu(element) {
 
         if (main) main.style.top = '150px';
         if (bg) bg.style.marginTop = '170px';
+        
 
 
         if (signDiv) {
             signDiv.style.top = '350px'; 
         }
-        if (textPartsDiv) textPartsDiv.style.marginTop = '250px';
+        if (textPartsDiv) textPartsDiv.style.marginTop = '230px';
 
+        if(boxes)boxes.style.marginTop='290px';
 
     
     } else {
@@ -28,6 +32,8 @@ function toggleMobileMenu(element) {
         if (bg) bg.style.marginTop = '30px';
         if (signDiv) signDiv.style.top = '100px';
         if (textPartsDiv) textPartsDiv.style.marginTop = '0px';
+        if(boxes)boxes.style.marginTop='0px';
+
     }
 }
 
@@ -38,6 +44,7 @@ window.addEventListener('scroll', () => {
     const firstbox=document.querySelector('.m-vocab-first-box');
     const secondbox=document.querySelector('.m-vocab-second-box');
     const thirdbox=document.querySelector('.m-vocab-third-box');
+    const fourthbox=document.querySelector('.m-vocab-second-part');
     const scrollTop = window.scrollY;
 
 
@@ -54,6 +61,10 @@ window.addEventListener('scroll', () => {
         thirdbox.style.marginTop='20px';
         thirdbox.style.opacity='1';
         thirdbox.style.visibility='visible';
+
+        fourthbox.style.marginTop='30px';
+        fourthbox.style.opacity='1';
+        fourthbox.style.visibility='visible';
 
     } else {
 
