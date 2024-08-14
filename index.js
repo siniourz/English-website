@@ -1,33 +1,32 @@
 function toggleMobileMenu(element) {
     element.classList.toggle("open");
     const menu = document.querySelector('.mobile-menu');
-    const main=document.querySelector('.m-four-sign');
-    const bg=document.querySelector('.m-text-parts');
-
-
+    const main = document.querySelector('.m-four-sign');
+    const bg = document.querySelector('.m-text-parts');
     const signDiv = document.querySelector('.m-vocab-div-for-img');
     const textPartsDiv = document.querySelector('.m-vocab-box');
 
     if (element.classList.contains('open')) {
         menu.style.display = 'flex';
-        main.style.top='150px';
-        bg.style.marginTop='170px';
 
+        if (main) main.style.top = '150px';
+        if (bg) bg.style.marginTop = '170px';
 
-
-        signDiv.style.top = '350px'; // Adjust this value as needed to move the .m-four-sign div further down
-        textPartsDiv.style.marginTop = '250px'; // Adjust this value to move the .m-text-parts div further down
+        
+        if (signDiv) {
+            signDiv.style.top = '350px'; 
+        }
+        if (textPartsDiv) textPartsDiv.style.marginTop = '250px';
     } else {
         menu.style.display = 'none';
-        main.style.top='20px';
-        bg.style.marginTop='30px';
 
-
-
-        signDiv.style.top = '100px'; // Reset to the original position
-        textPartsDiv.style.marginTop = '0px'; // Reset to the original position
+        if (main) main.style.top = '20px';
+        if (bg) bg.style.marginTop = '30px';
+        if (signDiv) signDiv.style.top = '100px';
+        if (textPartsDiv) textPartsDiv.style.marginTop = '0px';
     }
 }
+
 
 // script.js
 

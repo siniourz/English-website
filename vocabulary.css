@@ -132,7 +132,7 @@
 .m-vocab-first-box{
     width: 96%;
     margin-left: 2%;
-    background-color:#6786a8 ;
+    background-color:#7290af ;
     height: 150px;
     border-radius: 10px;
     margin-top: 290px;
@@ -146,20 +146,18 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.m-vocab-img3{
-    float: right;
-}
+
 .m-vocab-t1{
     width: 60%;
     float: right;
-    height: 100%;
+    height: fit-content;
     text-align: center;
     color: aliceblue;
     font-size: 30px;
     padding-top: 20px;
     text-decoration: underline;
 }
-.m-vocab-t1 span{
+span{
     float: right;
     font-size: 16px;
     font-weight: 400;
@@ -169,6 +167,58 @@
     margin-right: 10px;
 
 }
+.m-vocab-second-box{
+    width: 96%;
+    margin-left: 2%;
+    background-color:#7290af ;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.m-vocab-img3{
+    width: 40%;
+    height: 100%;
+    object-fit:cover ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.m-vocab-t2{
+    width: 60%;
+    float: right;
+    height: fit-content;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+.m-vocab-third-box{
+    width: 96%;
+    margin-left: 2%;
+    background-color:#7290af ;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.m-vocab-img4{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.m-vocab-t3{
+    width: 60%;
+    float: right;
+    height: fit-content;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
 .nmd{
     float: left;
     height: 90px;
