@@ -11,17 +11,17 @@ function toggleMobileMenu(element) {
     if (element.classList.contains('open')) {
         menu.style.display = 'flex';
 
-        if (matn) matn.style.opacity='0';
+        if (matn) matn.style.display='none';
         if(aks) aks.style.top='420px';
         if(header1) header1.style.top='590px';
-        if (secondpart)secondpart.style.marginTop='300px';
+        if (secondpart)secondpart.style.marginTop='550px';
 
 
     
     } else {
         menu.style.display = 'none';
 
-        if (matn)matn.style.opacity='1';
+        if (matn)matn.style.display='block';
         if(aks) aks.style.top='390px';
 
         if(header1) header1.style.top='560px';
@@ -46,6 +46,10 @@ window.addEventListener('scroll', () => {
     const menu=document.querySelector('.hamburger-icon');
     const firstbox=document.querySelector('.m-grammer-firstbox');
     const firstheader1=document.querySelector('.m-grammer-h1-1');
+    const secondbox=document.querySelector('.m-grammer-secondbox');
+    const secondheader1=document.querySelector('.m-grammer-h1-2');
+    const thirdbox=document.querySelector('.m-grammer-thirdbox');
+    const thirdheader1=document.querySelector('.m-grammer-h1-3');
 
 
 
@@ -72,6 +76,23 @@ window.addEventListener('scroll', () => {
 
        firstheader1.style.fontSize='30px';
        firstheader1.style.top='-105px';
+
+
+       secondbox.style.width='94%';
+       secondbox.style.marginLeft='3%';
+
+       secondheader1.style.fontSize='30px';
+       secondheader1.style.top='-105px';
+
+       thirdbox.style.width='94%';
+       thirdbox.style.marginLeft='3%';
+
+       thirdheader1.style.fontSize='30px';
+       thirdheader1.style.top='-105px';
+
+
+
+
 
         hasScrolledDown = true;  
     }

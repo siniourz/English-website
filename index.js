@@ -17,21 +17,21 @@ function toggleMobileMenu(element) {
         if (bg) bg.style.marginTop = '170px';
         
 
-        if (avali) avali.style.opacity='0';
+        if (avali) avali.style.display='none';
 
         if (signDiv) {
-            signDiv.style.top = '350px'; 
+            signDiv.style.top = '400px'; 
         }
         if (textPartsDiv) textPartsDiv.style.marginTop = '230px';
 
-        if(boxes)boxes.style.marginTop='200px';
+        if(boxes)boxes.style.marginTop='250px';
 
     
     } else {
         menu.style.display = 'none';
 
         if (main) main.style.top = '20px';
-        if(avali)avali.style.opacity='1';
+        if(avali)avali.style.display='block';
         if (bg) bg.style.marginTop = '30px';
         if (signDiv) signDiv.style.top = '350px';
         if (textPartsDiv) textPartsDiv.style.marginTop = '0px';
