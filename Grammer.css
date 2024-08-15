@@ -1,3 +1,160 @@
+.navbar{
+    display: none;
+}
+.hamburger-icon{
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+    opacity: 0;
+    transition:  ease 2s;
+}
+.bar1,.bar2,.bar3{
+    width: 35px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 330px;
+    
+}
+.bar1{
+    top: 30px;
+}
+.bar2{
+    top: 40px;
+}
+.open .bar1{
+    -webkit-transform: rotate(-45deg)translate(-6px,6px);
+    transform: rotate(-45deg) translate(-6px,6px);
+}
+.open .bar2{
+    opacity: 0;
+}
+.open .bar3{
+    -webkit-transform: rotate(45deg)translate(-6px,-8px);
+    transform: rotate(45deg) translate(-6px,-8px);
+}
+.open .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+   position: absolute;
+   
+}
+.mobile-menu{
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: -40px;
+    line-height: 50px;
+    height: 310px;
+    width: 100%;
+    list-style: none;
+    text-transform: capitalize;
+    background-color: rgb(245, 244, 244);
+    transition:  ease-in-out 0.4s;
+
+}
+.mobile-menu li a{
+    text-decoration: none;
+    color: #384859;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: ease-in-out 0.4s;
+}
+.mobile{
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    background-color: #5d7762;
+    display: none;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.m-grammer-div{
+    width: 95%;
+    height: 230px;
+    margin-left: 2.5%;
+    background-color: #384859;
+    display: none;
+    margin-top: 30px;
+    border-radius: 30px;
+    transition: ease 0.2s;
+}
+.m-grammer-header{
+    width: 98%;
+    margin-left: 1%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 5px;
+}
+.m-grammer-first-image{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 90px;
+    object-fit: cover;
+    transition: ease 1s;
+}
+.m-grammer-h1{
+    width: 80%;
+    height: 60px;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #5d7762;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 530px;
+    padding-top: 10px;
+    font-size: 40px;
+    transition: ease 1s;
+}
+.m-grammer-second-part{
+    width: 100%;
+    background-color: #384859;
+    height: 500px;
+    margin-top: 270px;
+    transition: all 1s;
+}
+.m-grammer-firstbox{
+    width: 1%;
+    margin-left: 0%;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: ease all 1.2s;
+
+}
+.m-grammer-img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    opacity: 30%;
+}
+.m-grammer-h1-1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -65px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 0px;
+    transition: ease 1.5s;
+  
+}
+
+
 .dheader{
     background-color: #583859;
     width: 1415px ;
@@ -872,4 +1029,42 @@ height: 300px;
 }
 .right-text{
     left: 950px;
+}
+@media only screen and (max-width:768px){
+.dheader,.first-background,.vocabulary-div,.long-back,.first-small-vertical-box,.second-vertical-box,.third-vertical-box,.long-horizontal-div{
+    display: none;
+}
+body{
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 242, 242);
+}
+.navbar{
+    min-width: 100%;
+    background-color: #384859;
+    height: 100px;
+    display: flex;
+  }
+  .logo-part{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+  }
+  .hamburger-icon{
+    display: flex;
+    
+  }
+  .mobile{
+    display: block;
+  }
+  .m-grammer-div{
+    display: block;
+  }
+
+
+
+
 }
