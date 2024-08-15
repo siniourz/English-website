@@ -155,7 +155,7 @@
 .m-vocab-first-box{
     width: 1%;
     margin-left: 0;
-    background-color:#90be9a;
+    background-color:#799a80;
     height: 150px;
     border-radius: 10px;
     margin-top: 310px;
@@ -199,7 +199,7 @@ span,.span2,.span3{
     transition: ease all 1.2s;
 }
 .span3{
-    transition: all ease 1s;
+    transition: all ease 0.8s;
 }
 .m-vocab-second-box{
     width: 1%;
@@ -264,8 +264,8 @@ span,.span2,.span3{
 }
 .m-vocab-second-part{
     width: 100%;
-    background-color: aliceblue;
     margin: 0;
+    background: linear-gradient(to bottom, aliceblue,beige);
     height: 400px;
     display: none;
     margin-top: 100px;
@@ -276,7 +276,9 @@ span,.span2,.span3{
 
 }
 .m-vocab-img5{
-    width: 100%;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 5px;
     height: 600px;
     object-fit: cover;
     transition: height ease 1.5s;
@@ -297,7 +299,9 @@ span,.span2,.span3{
     background-color: #4a6350;
 }
 .m-vocab-img6{
-    width: 100%;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 10px;
     height: 300px;
     object-fit: cover;
 }
@@ -309,6 +313,123 @@ span,.span2,.span3{
     color: aliceblue;
     
 }
+.m-vocab-fourth-part{
+    width: 100%;
+    height: 400px;
+   background: linear-gradient(to bottom ,#4a6350,#384859);
+    display: none;
+    margin: 0;
+    margin-top: 0px;
+
+}
+.m-vocab-smaller-div{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 90%;
+    margin-top: 5%;
+    background-color: #64866c;
+    border-radius: 10px;
+}
+.m-vocab-t7{
+    width: 98%;
+    margin-left: 1%;
+    height: 25%;
+    color: beige;
+    text-align: center;
+    padding-top: 10px;
+}
+.m-vocab-h4-4{
+    width: 90%;
+    margin-left: 5%;
+    height: 150px;
+    color: #404040;
+    text-align: center;
+    margin-top: -25px;
+    line-height: 30px;
+}
+.m-vocab-middle-part{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    background: linear-gradient(to bottom,beige,#4a6350);
+    display: none;
+
+
+    
+}
+.m-vocab-inside-middle{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 96%;
+    margin-top: 0%;
+    background-color: beige;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+
+}
+
+
+
+.m-vocab-inside-middle div{
+    width: 90%;
+    height: 60%;
+    background-color: #384859;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: -10%;
+    color: beige;
+}
+.sign3,.sign4{
+    width: 90%;
+    height: 60%;
+    background-color: #384859;
+    border-radius: 10px;
+    margin-left: 5%;
+    position: relative;
+    top: -90px;
+    color: beige;
+}
+.pt-img,.ielts-img,.lv-img,.self-img{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left:  50px;
+   
+}
+   
+.m-pt,.m,.m-lv,.m-self{
+ width: 100%;
+ height: 40%;
+   
+ font-size: 16px;
+ text-align: center;
+   
+}
+.m-vocab-inside-button{
+    width: 280px;
+    margin-left: 75px;
+    border: solid 5px aliceblue;
+    height: 60px;
+    display: block;
+    background-color: #4a6350;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: -100px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.m-vocab-inside-middle a{
+    color: none;
+    text-decoration: none;
+}
+
 .m-vocab-how-div{
     width: 100%;
     height: 850px;
@@ -1286,6 +1407,12 @@ body{
       }
 
       .m-vocab-third-part{
+        display: block;
+      }
+      .m-vocab-fourth-part{
+        display: block;
+      }
+      .m-vocab-middle-part{
         display: block;
       }
       .m-vocab-how-div{
