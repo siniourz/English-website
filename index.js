@@ -127,4 +127,6 @@ window.addEventListener('scroll', () => {
 
         hasScrolledDown = true;  // Set the flag to true to prevent further changes
     }
+    
+
 });
