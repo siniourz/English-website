@@ -492,14 +492,78 @@ span,.span2,.span3{
     position: absolute;
     border-radius: 20px;
     left: 105px;
-    top: 3190px;
+    top: 3199px;
     color: aliceblue;
+}
+.m-vocab-h5-001{
+    width: 60%;
+    height: 30px;
+    margin-top: -30px;
+    color: #87929d;
+    margin-left: 15%;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    font-size: 16px;
 }
 .m-vocab-last-img{
     width: 100%;
     height: 670px;
     object-fit: cover;
     margin-top: 10px;
+}
+.m-portfolio{
+    width: 100%;
+    height: 50px;
+    display: none;
+    margin-top: 50px;
+    background-color: white;
+    opacity: 80%;
+}
+.m-img07{
+    width: 110px;
+    height: 100%;
+    float: left;
+}
+.m-focus-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.m-ceo-text{
+    width: 200px;
+    float: right;
+    height: 100%;
+    margin-top: 0px;
+    margin-right: 50px;
+    opacity: 70%;
+    font-weight: 200;
+
+
+}
+.m-sina{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    line-height: 15px;
+    text-align: center;
+    font-weight: 300;
+
+
+}
+#m-008{
+    color: black;
+}
+.m-name{
+    width: fit-content;
+    border-radius: 20px;
+    height: 50%;
+    margin: 0;
+    margin-left: 60px;
+    font-size: 14px;
+    margin-top: 6px;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 
@@ -1435,6 +1499,9 @@ body{
         display: block;
       }
       .m-vocab-how-div{
+        display: block;
+      }
+      .m-portfolio{
         display: block;
       }
  
