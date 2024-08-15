@@ -57,7 +57,16 @@ window.addEventListener('scroll', () => {
     const fourthbox = document.querySelector('.m-vocab-second-part');
     const imgOne = document.querySelector('.m-vocab-img5');
     const topic = document.querySelector('.m-vocab-topic-div');
+    const tOne=document.querySelector('.m-vocab-t1');
+    const tDo=document.querySelector('.m-vocab-t2');
+    const tSe=document.querySelector('.m-vocab-t3');
+
     const khodeTopic=document.querySelector('.m-vocab-topic');
+    const span=document.querySelector('.span');
+    const spanD=document.querySelector('.span2');
+    const spanS=document.querySelector('.span3');
+
+
     const scrollTop = window.scrollY;
 
     if (scrollTop > 0) {
@@ -73,8 +82,9 @@ window.addEventListener('scroll', () => {
         khodeTopic.style.fontSize='36px';
         
         topic.style.top = '190px';
-        topic.style.width='80%';
-        topic.style.marginLeft='10%';
+        topic.style.width='100%';
+        topic.style.marginLeft='0%';
+        topic.style.borderRadius='0px';
         topic.style.height='60px';
 
 
@@ -83,14 +93,31 @@ window.addEventListener('scroll', () => {
         firstbox.style.opacity = '1';
         firstbox.style.visibility = 'visible';
         firstbox.style.marginTop = '320px';
+        firstbox.style.width='96%';
+        firstbox.style.marginLeft='2%';
+
+        tOne.style.opacity='1';
+        tOne.style.fontSize='30px';
+        tDo.style.fontSize='30px';
+        tSe.style.fontSize='30px';
+        span.style.fontSize='16px';
+        span.style.marginRight='10px';
+        spanD.style.fontSize='16px';
+        spanD.style.marginRight='10px';
+        spanS.style.fontSize='16px';
+        spanS.style.marginRight='10px';
 
         secondbox.style.opacity = '1';
         secondbox.style.marginTop = '20px';
         secondbox.style.visibility = 'visible';
+        secondbox.style.width='96%';
+        secondbox.style.marginLeft='2%';
 
         thirdbox.style.marginTop = '20px';
         thirdbox.style.opacity = '1';
         thirdbox.style.visibility = 'visible';
+        thirdbox.style.width='96%';
+        thirdbox.style.marginLeft='2%';
 
         fourthbox.style.marginTop = '0px';
         fourthbox.style.opacity = '1';
