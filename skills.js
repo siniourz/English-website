@@ -4,7 +4,7 @@ function toggleMobileMenu(element) {
     const matn=document.querySelector('.m-skills-div');
     const aks=document.querySelector('.m-skills-img1');
     const header1=document.querySelector('.m-skills-h12');
-
+    const secondpart=document.querySelector('.m-skills-firstbox');
 
    
 
@@ -15,6 +15,7 @@ function toggleMobileMenu(element) {
         if(aks) aks.style.top='400px';
 
         if(header1)header1.style.top='590px';
+        if(secondpart)secondpart.style.marginTop='60px';
  
 
 
@@ -26,6 +27,9 @@ function toggleMobileMenu(element) {
         if(header1)header1.style.top='600px';
 
         if(aks) aks.style.top='370px';
+
+        if(secondpart)secondpart.style.marginTop='80px';
+
 
        
 
