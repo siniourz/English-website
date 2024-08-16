@@ -5,6 +5,7 @@ function toggleMobileMenu(element) {
     const aks=document.querySelector('.m-grammer-first-image');
     const header1=document.querySelector('.m-grammer-h1');
     const secondpart=document.querySelector('.m-grammer-second-part');
+    
 
    
 
