@@ -67,6 +67,9 @@ window.addEventListener('scroll', () => {
     const spanS=document.querySelector('.span3');
 
 
+    const logo=document.querySelector('.main-khode-img');
+
+
     const scrollTop = window.scrollY;
 
     if (scrollTop > 0) {
@@ -124,6 +127,11 @@ window.addEventListener('scroll', () => {
         fourthbox.style.visibility = 'visible';
 
         imgOne.style.height = '300px';
+
+
+        logo.style.top='0px';
+        logo.style.left='0px';
+        logo.style.width='50px';
 
         hasScrolledDown = true;  // Set the flag to true to prevent further changes
     }

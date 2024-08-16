@@ -122,7 +122,9 @@ body{
     align-items: center;
     justify-items: center;
     top: 20px; /* Default position */
-    transition: top 0.4s ease-in-out; /* Smooth transition when moving */
+    transition: top 0.4s ease-in-out,visiblity 1s ease-in-out,opacity 1s ease-in-out; /* Smooth transition when moving */
+    visibility: hidden;
+    opacity: 0;
 }
 
 
@@ -1967,7 +1969,43 @@ margin-top: -22px;
 .name-sina:hover{
     text-decoration: underline;
 }
+.main-div{
+    display: none;
+    width: 100%;
+    margin-left: 0%;
+    position: absolute;
+    top: 100px;
+    background-color: #5d7762;
+    height: 400px;
+    transition: ease all 0.5s;
+}
+.main-h1{
+    width: 98%;
+    margin-left: 1%;
+    height: 100%;
+    text-align: center;
 
+    font-size: 50px;
+    color: aliceblue;
+    transition: ease 0.5s;
+}
+.main-image{
+    display: none;
+    width: 100%;
+    height: 190px;
+    background-color: #5d7762;
+    position: absolute;
+    top: 490px;
+    transition: ease width 0.5s, ease height 0.5s , visibility 1s,top 0.5s ease-in-out;
+}
+
+.main-khode-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.5s;
+
+}
 
 
 @media only screen and (max-width:768px){
@@ -1984,6 +2022,12 @@ margin-top: -22px;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 
+  }
+  .main-div{
+    display: block;
+  }
+  .main-image{
+    display: block;
   }
   .navbar{
     min-width: 100%;
@@ -2002,6 +2046,7 @@ margin-top: -22px;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
+    visibility: hidden;
   }
   #hamburger-icon{
     display: flex;
