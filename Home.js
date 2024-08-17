@@ -34,6 +34,13 @@ window.addEventListener('scroll', () => {
     const text=document.querySelector('.main-image');
     const khodetext=document.querySelector('.main-h1');
     const sign=document.querySelector('.m-four-sign');
+    const sign1=document.querySelector('.sign1');
+    const sign2=document.querySelector('.sign2');
+    const sign3=document.querySelector('.sign3');
+    const sign4=document.querySelector('.sign4');
+
+
+
 
 
     const scrollTop = window.scrollY;
@@ -50,11 +57,25 @@ window.addEventListener('scroll', () => {
         text.style.width='0px';
         text.style.height='0px';
         text.style.top='550px';
+        text.style.opacity='0';
         text.style.right='0px';
         khodetext.style.fontSize='0px';
 
         sign.style.visibility='visible';
         sign.style.opacity='1';
+
+        sign1.style.marginLeft='0px';
+        sign1.style.opacity='1';
+
+        sign2.style.marginLeft='0px';
+        sign2.style.opacity='1';
+
+        sign3.style.marginLeft='0px';
+        sign3.style.opacity='1';
+
+        sign4.style.marginLeft='0px';
+        sign4.style.opacity='1';
+
 
     }
     
