@@ -1981,10 +1981,10 @@ margin-top: -22px;
     width: 100%;
     margin-left: 0%;
     position: absolute;
-    top: 100px;
+    top: 0px;
     background-color: #5d7762;
-    height: 600px;
-    transition: top ease 0.5s,width 1s,height 1s,opacity 1.5s,margin-left 1s;
+    height: 900px;
+    transition: top ease 1s,width 1s,height 1s,opacity 1.5s,margin-left 1s;
 }
 
 .main-khode-img{
@@ -2022,6 +2022,8 @@ margin-top: -22px;
     background-color: #5d7762;
     height: 100px;
     display: flex;
+    visibility: hidden;
+    transition: 0.2s;
   }
   .logo-part{
     width: 100px;
@@ -2035,6 +2037,7 @@ margin-top: -22px;
     width: 100%;
     height: 100%;
     visibility: hidden;
+    transition: ease 0.5s;
   }
   #hamburger-icon{
     display: flex;

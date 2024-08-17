@@ -37,6 +37,8 @@ window.addEventListener('scroll', () => {
     const sign3=document.querySelector('.sign3');
     const sign4=document.querySelector('.sign4');
     const firstbox=document.querySelector('.m-first-box');
+    const an1=document.querySelector('.an1');
+    const navbar=document.querySelector('.navbar');
 
 
 
@@ -72,6 +74,10 @@ window.addEventListener('scroll', () => {
 
         firstbox.style.opacity='1';
         firstbox.style.marginTop='0px';
+
+        an1.style.visibility='visible';
+
+        navbar.style.visibility='visible';
     
 
 
