@@ -38,6 +38,7 @@ window.addEventListener('scroll', () => {
     const sign2=document.querySelector('.sign2');
     const sign3=document.querySelector('.sign3');
     const sign4=document.querySelector('.sign4');
+    const firstbox=document.querySelector('.m-first-box');
 
 
 
@@ -75,6 +76,10 @@ window.addEventListener('scroll', () => {
 
         sign4.style.marginLeft='0px';
         sign4.style.opacity='1';
+
+        firstbox.style.opacity='1';
+        firstbox.style.marginTop='0px';
+    
 
 
     }

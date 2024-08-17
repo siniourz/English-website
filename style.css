@@ -189,6 +189,11 @@ body{
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
 }
+.m-first-box{
+    opacity: 0;
+    transition: ease-in-out 1.2s;
+    margin-top: -20px;
+}
 .m-second-box,.m-fourth-box{
     margin-top:40px ;
     border-top-right-radius: 0px;
