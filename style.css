@@ -135,27 +135,7 @@ body{
  background-color: aliceblue;
  border-radius: 10px;
 }
-.sign1{
-    margin-left: -200px;
-    opacity: 0;
-    transition: all ease-in-out 0.7s;
-}
-.sign2{
-    margin-left: -400px;
-    opacity: 0;
-    transition: ease-in-out all 0.9s;
-}
-.sign3{
-    margin-left: -200px;
-    opacity: 0;
-    transition: all ease-in-out 1.2s; 
-}
-.sign4{
-    margin-left: -400px;
-    opacity: 0;
-    transition: ease-in-out all 1.5s;
 
-}
 .pt-img,.ielts-img,.lv-img,.self-img{
     width: 50%;
     height: 50%;
@@ -191,7 +171,7 @@ body{
 }
 .m-first-box{
     opacity: 0;
-    transition: ease-in-out 1.2s;
+    transition: ease-in-out 2.3s;
     margin-top: -20px;
 }
 .m-second-box,.m-fourth-box{
@@ -2003,29 +1983,8 @@ margin-top: -22px;
     position: absolute;
     top: 100px;
     background-color: #5d7762;
-    height: 400px;
-    transition: ease all 0.5s;
-}
-.main-h1{
-    width: 98%;
-    margin-left: 1%;
-    height: 100%;
-    text-align: center;
-
-    font-size: 50px;
-    color: #2a4b6f;
-    transition: ease 0.5s;
-    font-family: cursive;
-}
-.main-image{
-    display: none;
-    width: 100%;
-    height: 250px;
-    background-color: #f7f7f7;
-    position: absolute;
-    top: 490px;
-    padding-top: 30px;
-    transition: ease 0.3s;
+    height: 600px;
+    transition: top ease 0.5s,width 1s,height 1s,opacity 1.5s,margin-left 1s;
 }
 
 .main-khode-img{
@@ -2104,6 +2063,9 @@ margin-top: -22px;
     display: grid;
   }
   .m-portfolio{
+    display: block;
+  }
+  .first-safhe{
     display: block;
   }
 
