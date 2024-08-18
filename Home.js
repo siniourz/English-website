@@ -35,6 +35,8 @@ window.addEventListener('scroll', () => {
     const sign3=document.querySelector('.sign3');
     const sign4=document.querySelector('.sign4');
     const firstbox=document.querySelector('.m-first-box');
+    const arrow=document.querySelector('.m-arrow');
+    const scroll=document.querySelector('.m-scroll');
 
 
 
@@ -60,6 +62,11 @@ window.addEventListener('scroll', () => {
 
         firstbox.style.opacity='1';
         firstbox.style.marginTop='0px';
+
+        arrow.style.opacity='0';
+
+
+        scroll.style.opacity='0';
 
 
     
