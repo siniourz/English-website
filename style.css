@@ -35,7 +35,6 @@ body{
 .bar1,.bar2,.bar3{
     width: 35px;
     height: 3px;
-    background-color: #E43D12;
     margin: 6px 0;
     transition: 0.4s;
     position: absolute;
@@ -46,12 +45,15 @@ body{
 }
 .bar1{
     top: 20px;
+    background-color: #efb11d;
 }
 .bar2{
     top: 30px;
+    background-color: #da765d;
 }
 .bar3{
     top: 40px;
+    background-color: #e41640;
 }
 .open .bar1{
     -webkit-transform: rotate(-45deg)translate(-6px,6px);
@@ -2060,6 +2062,7 @@ margin-top: -22px;
     margin-left: 35%;
     height: 100px;
     transition: 0.3s;
+    opacity: 70%;
 }
 .arrow-img{
     width: 100%;
@@ -2102,18 +2105,18 @@ color: #e41640;
     transition: 0.2s;
   }
   .logo-part{
-    width: 100px;
+    width: 250px;
     height: 70px;
-    display: flex;
     position: absolute;
+    font-size: 12px;
   }
   .an1{
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
+    padding-top: 18px;
     height: 100%;
-    visibility: hidden;
+    margin-left: 35px;
     transition: ease 0.5s;
+    color: #efb11d;
   }
   #hamburger-icon{
     display: flex;
