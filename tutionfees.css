@@ -612,8 +612,10 @@ border: none;
 .m-back{
     display: none;
     width: 100%;
-    height: 1200px;
+    height: 1550px;
     margin: 0;
+    transition:  ease-in-out 0.5s;
+    transition-duration: 0.3s;
 }
 .m-background{
     display: none;
@@ -621,15 +623,29 @@ border: none;
     height: 100%;
     object-fit: cover;
 }
+.m-idiom{
+    width: 96%;
+    margin-left: 2%;
+    text-align: center;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.666);
+    color: rgba(0, 0, 0, 0.78);
+    position: absolute;
+    top: 80px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
 .m-first-box{
     display: none;
     width: 94%;
     margin-left: 3%;
     height: 420px;
-    background-color: rgba(0, 0, 0, 0.399);
+    background-color: rgba(0, 0, 0, 0.534);
     position: absolute;
-    top: 100px;
+    top: 250px;
     border-radius: 60px;
+    transition: 0.3s;
+    transition-duration: 0.8s;
 
 }
 .m-h1-00{
@@ -668,7 +684,7 @@ border: none;
     margin-top: -70px;
     float: right;
 }
-.m-first-button{
+.m-first-button,.m-first-button-2,.m-first-button-3{
     width: 60%;
     height: 50px;
     margin-left: 20%;
@@ -679,12 +695,34 @@ border: none;
     margin-top: -80px;
     font-size: 16px;
 }
+.m-first-button-2{
+    background-color: #da765d;
+}
 .m-h3-00{
     width: 100%;
     height: fit-content;
     text-align: center;
     color: #EBE9E1;
     margin-top: 30px;
+}
+.m-second-box,.m-third-box{
+    display: none;
+    width: 94%;
+    margin-left: 3%;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.661);
+    position: absolute;
+    top: 700px;
+    border-radius: 60px;
+    transition: 0.3s;
+    transition-duration: 0.8s;
+}
+.m-third-box{
+    background-color: rgba(0, 0, 0, 0.534);
+    top: 1150px;
+}
+.m-first-button-3{
+    background-color: #efb11d;
 }
 
 @media only screen and (max-width:768px){
@@ -725,6 +763,12 @@ border: none;
         display: block;
       }
       .m-back{
+        display: block;
+      }
+      .m-second-box{
+        display: block;
+      }
+      .m-third-box{
         display: block;
       }
 
