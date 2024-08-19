@@ -1390,12 +1390,20 @@ text-decoration: underline;
       .mobile{
         display: block;
     }
-    .an1{
-        display: flex;
-        flex-wrap: wrap;
+    .logo-part{
+        width: 280px;
+        height: 70px;
+        position: absolute;
+        font-size: 10px;
+      }
+      .an1{
         width: 100%;
+        padding-top: 25px;
         height: 100%;
-    }
+        margin-left: 15px;
+        transition: ease 0.5s;
+        color: aliceblue;
+      }
     .m-skills-div{
         display: block;
     }
