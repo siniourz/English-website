@@ -12,7 +12,7 @@
 .bar1,.bar2,.bar3{
     width: 35px;
     height: 3px;
-    background-color: rgb(255, 255, 255);
+    background-color: #EBE9E1;
     margin: 6px 0;
     transition: 0.4s;
     position: absolute;
@@ -58,7 +58,7 @@
     width: 100%;
     list-style: none;
     text-transform: capitalize;
-    background-color: rgb(245, 244, 244);
+    background-color: #EBE9E1;
     transition:  ease-in-out 0.4s;
 
 }
@@ -95,7 +95,7 @@
     width: 90%;
     margin-left: 5%;
     height: fit-content;
-    color: aliceblue;
+    color: #EBE9E1;
     text-align: center;
     padding-top: 5%;
 }
@@ -115,7 +115,7 @@
     margin-left: 10%;
     border-radius: 20px;
     background-color: #90be9a;
-    color: aliceblue;
+    color: #EBE9E1;
     text-align: center;
     position: absolute;
     top: 600px;
@@ -129,7 +129,7 @@
     width: 100%;
     height: 540px;
     margin: 0;
-    background-color: rgb(227, 227, 228);
+    background-color: #EBE9E1;
     margin-top: 520px;
 }
 .m-skills-firstbox,.m-skills-secondbox,.m-skills-thirdbox{
@@ -170,7 +170,7 @@
     top: -65px;
     opacity: 100%;
     text-align: center;
-    color: #ffffff;
+    color: #EBE9E1;
     font-size: 0px;
     transition: ease 1.5s;
 }
@@ -202,12 +202,12 @@
     padding-top: 25px;
     text-align: center;
     margin: 0;
-    color: aliceblue;
+    color: #EBE9E1;
 }
 .m-grammer-fourthpart{
     width: 100%;
     height: 600px;
-    background: linear-gradient(to bottom,#5d7762,aliceblue);
+    background: linear-gradient(to bottom,#5d7762,#EBE9E1);
     display: none;
 }
 .m-grammer-inside-div{
@@ -216,7 +216,7 @@
     height: 93%;
     margin-top: 0%;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: #EBE9E1;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -231,7 +231,7 @@
     border-radius: 10px;
     margin-left: 5%;
     margin-top: -10%;
-    color: aliceblue;
+    color: #EBE9E1;
 }
 .sign3,.sign4{
     width: 90%;
@@ -241,7 +241,7 @@
     margin-left: 5%;
     position: relative;
     top: -90px;
-    color: beige;
+    color: #EBE9E1;
 }
 .pt-img,.ielts-img,.lv-img,.self-img{
     width: 50%;
@@ -266,7 +266,7 @@
     height: 60px;
     display: block;
     background-color: #90be9a;
-    color: aliceblue;
+    color: #EBE9E1;
     font-size: 20px;
     border-radius: 20px;
     margin-top: -100px;
@@ -285,7 +285,7 @@
     display: none;
     width: 100%;
     height: 400px;
-    background-color: aliceblue;
+    background-color: #EBE9E1;
     margin: 0;
 }
 .m-grammer-img5{
@@ -305,7 +305,7 @@
     width: 100%;
     height: 400px;
     margin: 0;
-    background: linear-gradient(to bottom,aliceblue,#5d7762);
+    background: linear-gradient(to bottom,#EBE9E1,#5d7762);
     display: none;
 }
 .m-grammer-small-div{
@@ -313,7 +313,7 @@
     margin-left: 5%;
     height: 370px;
     margin-top: 10px;
-    background-color: aliceblue;
+    background-color: #EBE9E1;
     border-radius: 20px;
 }
 .m-grammer-h1-6{
@@ -348,7 +348,7 @@
     height: 80px;
     text-align: center;
     font: 50px;
-    color: aliceblue;
+    color: #EBE9E1;
     opacity: 90%;
     text-transform: capitalize;
     padding-top: 10px;
@@ -362,14 +362,14 @@
     margin-top: 30px;
     height: 40px;
     text-align: center;
-    color: aliceblue;
+    color: #EBE9E1;
 
 }
 #m-vocab-num1{
     width: 180px;
     height: 180px;
     border-radius: 90%;
-    background-color: aliceblue;
+    background-color: #EBE9E1;
     color: #384859;
     position: relative;
     font-size: 20px;
@@ -385,7 +385,7 @@
     text-align: center;
     opacity: 90%;
     border-radius: 10px;
-    color: aliceblue;
+    color: #EBE9E1;
     font-weight: 200;
 }
 .m-vocab-h3-new{
@@ -398,7 +398,7 @@
     border-radius: 20px;
     left: 105px;
     top: 3260px;
-    color: aliceblue;
+    color: #EBE9E1;
 }
 .m-vocab-h5-001{
     width: 60%;
@@ -422,7 +422,7 @@
     height: 50px;
     display: none;
     margin-top: 80px;
-    background-color: white;
+    background-color: #EBE9E1;
     opacity: 80%;
 }
 .m-img07{
@@ -480,7 +480,7 @@ body,html{
     padding: 0px;
     max-width: 100%;
     max-height: 100%;
-    background-color: aliceblue;
+    background-color: #EBE9E1;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -994,11 +994,19 @@ body,html{
         display: flex;
     }
     .logo-part{
-        width: 100px;
-        height: 100px;
-        display: flex;
+        width: 280px;
+        height: 70px;
         position: absolute;
-    }
+        font-size: 10px;
+      }
+      .an1{
+        width: 100%;
+        padding-top: 25px;
+        height: 100%;
+        margin-left: 15px;
+        transition: ease 0.5s;
+        color: #EBE9E1;
+      }
       .hamburger-icon{
         display: flex;
         
