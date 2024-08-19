@@ -38,3 +38,36 @@ function toggleMobileMenu(element) {
 
 
 }
+function sendMessage(buttonId) {
+    const phoneNumber = "00905526026689"; // Replace with the recipient's phone number
+    let message = "";
+
+    if (buttonId === 'm-first-button') {
+        message = "I'm interested in the Small Group Classes.";
+    } else if (buttonId === 'm-first-button-2') {
+        message = "I'm interested in the Private Classes.";
+    } else if (buttonId === 'm-first-button-3') {
+        message = "I'm interested in the Kids Classes.";
+    }
+
+    console.log("Button clicked:", buttonId);
+    console.log("Message:", message);
+
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    console.log("URL:", url);
+    window.open(url, '_blank');
+}
+
+// Attach the function to each button
+document.querySelector('.m-first-button').onclick = function() {
+    sendMessage('m-first-button');
+};
+
+document.querySelector('.m-first-button-2').onclick = function() {
+    sendMessage('m-first-button-2');
+};
+
+document.querySelector('.m-first-button-3').onclick = function() {
+    sendMessage('m-first-button-3');
+};
+

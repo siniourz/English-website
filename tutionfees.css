@@ -725,6 +725,9 @@ border: none;
 .m-first-button-3{
     background-color: #efb11d;
 }
+.m-back button{
+    cursor: pointer;
+}
 
 @media only screen and (max-width:768px){
     .dheader,.long-back,.second-box,.third-box,.new-div{
