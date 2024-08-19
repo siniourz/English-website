@@ -9,7 +9,6 @@
 .bar1,.bar2,.bar3{
     width: 35px;
     height: 3px;
-    background-color: rgb(255, 255, 255);
     margin: 6px 0;
     transition: 0.4s;
     position: absolute;
@@ -20,9 +19,15 @@
 }
 .bar1{
     top: 30px;
+    background-color: #efb11d;
 }
 .bar2{
     top: 40px;
+    background-color: #da765d;
+}
+.bar3{
+    top: 50px;
+    background-color: #e41640;
 }
 .open .bar1{
     -webkit-transform: rotate(-45deg)translate(-6px,6px);
@@ -60,7 +65,7 @@
 }
 .mobile-menu li a{
     text-decoration: none;
-    color: #384859;
+    color: #e41640;
     text-transform: capitalize;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +75,7 @@
     width: 90%;
     height: 150px;
     margin-left: 5%;
-    background-color: #5d7762;
+    background-color: #da765d;
     display: none;
     margin-top: 20px;
     border-radius: 20px;
@@ -102,14 +107,15 @@
     height: 200px;
     top: 130px;
     text-align: center;
-    background-color: #5d7762;
+    background-color: #da765d;
     border-radius: 30px;
     opacity: 0;
     transition: all ease-in-out 0.2s;
 }
 .m-vocab-h3{
     font-size: 30px;
-    color: aliceblue;
+    color: #EBE9E1;
+    padding: 3px;
 }
 .m-vocab-div-for-img{
     width: 100%;
@@ -129,7 +135,7 @@
     width: 90%;
     margin-left: 5%;
     height: 100px;
-    background-color: #5d7762;
+    background-color: #da765d;
     position: absolute;
     top: 470px;
     border-radius: 20px;
@@ -150,12 +156,12 @@
     height: 830px;
     margin: 0;
     display: none;
-    background-color: #384859;    
+    background-color: #EBE9E1;    
 }
 .m-vocab-first-box{
     width: 1%;
     margin-left: 0;
-    background-color:#799a80;
+    background-color:#efb11d;
     height: 150px;
     border-radius: 10px;
     margin-top: 310px;
@@ -178,7 +184,7 @@
     float: right;
     height: fit-content;
     text-align: center;
-    color: aliceblue;
+    color: #EBE9E1;
     font-size: 10px;
     padding-top: 20px;
     opacity: 0;
@@ -189,7 +195,7 @@ span,.span2,.span3{
     float: right;
     font-size: 2px;
     font-weight: 400;
-    color: rgb(255, 255, 255);
+    color: #EBE9E1;
     margin-top: 10px;
     margin-right: 100px;
     transition: all ease 1.5s;
@@ -204,7 +210,7 @@ span,.span2,.span3{
 .m-vocab-second-box{
     width: 1%;
     margin-left: 0%;
-    background-color:#64866c ;
+    background-color:#efb11d ;
     height: 150px;
     border-radius: 10px;
     margin-top: 40px;
@@ -224,7 +230,7 @@ span,.span2,.span3{
     float: right;
     height: fit-content;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #EBE9E1;
     font-size: 10px;
     padding-top: 20px;
 
@@ -234,7 +240,7 @@ span,.span2,.span3{
 .m-vocab-third-box{
     width: 1%;
     margin-left: 0%;
-    background-color:#4a6350 ;
+    background-color:#efb11d ;
     height: 150px;
     border-radius: 10px;
     margin-top: 60px;
@@ -255,7 +261,7 @@ span,.span2,.span3{
     float: right;
     height: fit-content;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #EBE9E1;
     font-size: 10px;
     padding-top: 20px;
     transition: all ease 1.8s;
@@ -265,7 +271,7 @@ span,.span2,.span3{
 .m-vocab-second-part{
     width: 100%;
     margin: 0;
-    background: linear-gradient(to bottom, aliceblue,beige);
+    background: linear-gradient(to bottom, #EBE9E1,#da765d);
     height: 400px;
     display: none;
     margin-top: 100px;
@@ -288,7 +294,7 @@ span,.span2,.span3{
     height: 100px;
     text-align: center;
     font-size: 40px;
-    color: #5d7762;
+    color: #EBE9E1;
 }
 .m-vocab-third-part{
     width: 100%;
@@ -296,7 +302,7 @@ span,.span2,.span3{
     margin: 0;
     margin-top: 0px;
     display: none;
-    background-color: #4a6350;
+    background-color: #EBE9E1;
 }
 .m-vocab-img6{
     width: 96%;
@@ -311,13 +317,13 @@ span,.span2,.span3{
     height: 100px;
     text-align: center;
     font-size: 35px;
-    color: aliceblue;
+    color: #da765d;
     
 }
 .m-vocab-fourth-part{
     width: 100%;
     height: 400px;
-   background: linear-gradient(to bottom ,#4a6350,#384859);
+   background: linear-gradient(to bottom ,#da765d,#384859);
     display: none;
     margin: 0;
     margin-top: 0px;
@@ -328,14 +334,14 @@ span,.span2,.span3{
     margin-left: 2.5%;
     height: 90%;
     margin-top: 5%;
-    background-color: #64866c;
+    background-color: #EBE9E1;
     border-radius: 10px;
 }
 .m-vocab-t7{
     width: 98%;
     margin-left: 1%;
     height: 25%;
-    color: beige;
+    color: #384859;
     text-align: center;
     padding-top: 10px;
 }
@@ -343,7 +349,7 @@ span,.span2,.span3{
     width: 90%;
     margin-left: 5%;
     height: 150px;
-    color: #404040;
+    color: #556e88;
     text-align: center;
     margin-top: -25px;
     line-height: 30px;
@@ -352,7 +358,7 @@ span,.span2,.span3{
     width: 100%;
     height: 600px;
     margin: 0;
-    background: linear-gradient(to bottom,beige,#4a6350);
+    background: linear-gradient(to bottom,#da765d,#EBE9E1);
     display: none;
 }
 .m-vocab-inside-middle{
@@ -360,7 +366,7 @@ span,.span2,.span3{
     margin-left: 2.5%;
     height: 96%;
     margin-top: 0%;
-    background-color: beige;
+    background-color: #EBE9E1;
     border-radius: 10px;
     display: grid;
     align-items: center;
@@ -376,7 +382,7 @@ span,.span2,.span3{
 .m-vocab-inside-middle div{
     width: 90%;
     height: 60%;
-    background-color: #384859;
+    background-color: #efb11d;
     border-radius: 10px;
     margin-left: 5%;
     margin-top: -10%;
@@ -385,7 +391,7 @@ span,.span2,.span3{
 .sign3,.sign4{
     width: 90%;
     height: 60%;
-    background-color: #384859;
+    background-color: #da765d;
     border-radius: 10px;
     margin-left: 5%;
     position: relative;
@@ -415,7 +421,7 @@ span,.span2,.span3{
     border: solid 5px aliceblue;
     height: 60px;
     display: block;
-    background-color: #4a6350;
+    background-color: #da765d;
     color: aliceblue;
     font-size: 20px;
     border-radius: 20px;
@@ -431,9 +437,10 @@ span,.span2,.span3{
 .m-vocab-how-div{
     width: 100%;
     height: 850px;
-    margin-top: 50px;
+    margin-top: 0px;
     background-color: #384859;
     display: none;
+    padding-top: 50px;
     
 }
 .m-vocab-t6{
@@ -1449,25 +1456,27 @@ body{
         height: 1000px;
         margin: 0;
         padding: 0;
+        background-color: #EBE9E1;
     }
     .navbar{
         min-width: 100%;
-        background-color: #5d7762;
+        background-color: #EBE9E1;
         height: 100px;
         display: flex;
       }
       .logo-part{
-        width: 100px;
-        height: 100px;
-        display: flex;
+        width: 280px;
+        height: 70px;
         position: absolute;
-  
+        font-size: 10px;
       }
       .an1{
-        display: flex;
-        flex-wrap: wrap;
         width: 100%;
+        padding-top: 25px;
         height: 100%;
+        margin-left: 15px;
+        transition: ease 0.5s;
+        color: #efb11d;
       }
       #hamburger-icon{
         display: flex;
