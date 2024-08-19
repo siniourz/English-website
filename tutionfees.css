@@ -735,6 +735,7 @@ border: none;
         height: 1200px;
         margin: 0;
         padding: 0;
+        background-color: #e41640;
     }
     .navbar{
         min-width: 100%;
