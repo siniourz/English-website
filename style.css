@@ -23,6 +23,10 @@ body{
     text-transform: capitalize;
     
 }
+a{
+    all: unset;
+    cursor: pointer;
+}
 
 .navbar{
     display: none;
@@ -614,20 +618,23 @@ background: linear-gradient(to bottom,#efb11d,#EBE9E1);    margin-top: 25px;
 
 .nmd{
     float: left;
-    height: 90px;
-    width: 120px;
+    height: fit-content;
+    width: 230px;
     position: relative;
-    left: -60px;
+    left: -120px;
+    padding-top: 20px;
+    text-align: center;
+    color: #efb11d;
 
 }
 #hlogo{
     width: 100%;
-    height: 90%;
-    margin: 15px 10px 0px 0px ;
+    height: 100%;
+    margin: 0px 00px 0px 0px ;
     border-radius: 15px;
     display: table-cell;
     vertical-align: middle;
-    visibility: hidden;
+ 
     
 }
 
@@ -804,24 +811,26 @@ border-radius: 10px;
     
 }
  #aks{
-    width: 1417px;
+    width: 1421px;
     object-fit: fill;
-    height: 600px;
+    height: 700px;
     margin: 0px 0px 0% 0px;
-    border-top-right-radius: 10%;
-    border-bottom-left-radius: 10%;
+
+    margin-top: -20px;
+    object-fit: cover;
+    margin-left: -4px;
 }
 #hd h1{
     height: 260px;
     font: 25px;
-    background-color: #e41640;
-    margin-left: 40px;
-    margin-right: 10px;
+    background: linear-gradient( to bottom, #E43D12,#e41640);
+    margin-left: 5%;
     margin-top: -180px;
-    border-radius: 10px;
+    border-radius: 30px;
     position:relative;
-    width: 750px;
-    padding: 20px;
+    width: 90%;
+    padding-top: 20px;
+
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -831,9 +840,11 @@ border-radius: 10px;
 #hd button{
     margin-top: -155px;
     position: absolute;
-    width: 400px;
+
+    width: 50%;
+    margin-left: 25%;
     height: 90px;
-    margin-left: 220px;
+
     border-radius: 20px;
     border: solid rgb(255, 255, 255) 2px;
     background-color: #EBE9E1;

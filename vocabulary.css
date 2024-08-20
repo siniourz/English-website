@@ -85,7 +85,7 @@
 }
 
 .dheader{
-    background-color: #583859;
+    background-color: #EBE9E1;
     width: 100% ;
     height: 0px;
     display: inline-block;
@@ -95,7 +95,7 @@
 .inner-h{
     width: 100%;
     height: 80px;
-    background-color: #384859;
+    background-color: #EBE9E1;
     border: none;
     position: absolute;
 }
@@ -577,7 +577,10 @@ span,.span2,.span3{
 .nmd{
     float: left;
     height: 90px;
-    width: 100px;
+    width: 210px;
+    margin-left: -80px;
+    color: #efb11d;
+    
     
   
 
@@ -589,11 +592,14 @@ span,.span2,.span3{
     border-radius: 15px;
     display: table-cell;
     vertical-align: middle;
-    border: solid #ffffff 2px;
     position: relative;
-    left: 40px;
-    top: 5px;
+    left: 80px;
+    top: 8px;
     
+}
+a{
+    all: unset;
+    cursor: pointer;
 }
 
 
@@ -616,7 +622,7 @@ span,.span2,.span3{
     left: 100px;
   display: inline;
   vertical-align: middle;
-  margin: 0 25px 0px 52px;
+  margin: 0 20px 0px 52px;
   font-size: 10px;
   width: 90px;
   padding: 10px;
@@ -626,11 +632,16 @@ span,.span2,.span3{
     text-decoration: none;
     font-size: 20px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #da765d;
     text-transform: capitalize;
     
 
 
+}
+body{
+    background-color: #EBE9E1;
+    padding: 0;
+    margin: 0;
 }
 a{
 height: 100%;
@@ -641,7 +652,7 @@ border-radius: 10px;
 
 }
 #l1:hover{
-    color: #90be9a;
+    color: #da765d;
 
 }
 #l1::before{
@@ -649,7 +660,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:100%;
-    background-color:#90be9a;
+    background-color:#da765d;
     position: absolute;
     top: -31px;
     left: 1px;
@@ -663,7 +674,7 @@ border-radius: 10px;
 }
 
 #l2:hover{
-    color: #90be9a;
+    color: #da765d;
 
 }
 #l2::before{
@@ -671,7 +682,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:1000%;
-    background-color:#90be9a;
+    background-color:#da765d;
     position: absolute;
     top: -31px;
     left: 1px;
@@ -684,7 +695,7 @@ border-radius: 10px;
     width: 60px;
 }
 #l3:hover{
-    color: #90be9a;
+    color: #da765d;
 
 }
 #l3::before{
@@ -692,7 +703,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:100%;
-    background-color:#90be9a;
+    background-color:#da765d;
     position: absolute;
     top: -31px;
     left: 1px;
@@ -705,7 +716,7 @@ border-radius: 10px;
     width: 100px;
 }
 #l4:hover{
-    color: #90be9a;
+    color:#da765d;
 
 }
 #l4::before{
@@ -713,7 +724,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:100%;
-    background-color:#90be9a;
+    background-color:#da765d;
     position: absolute;
     top: -31px;
     left: 1px;
@@ -726,7 +737,7 @@ border-radius: 10px;
     width: 100px;
 }
 #l5:hover{
-    color: #90be9a;
+    color: #da765d;
 
 }
 #l5::before{
@@ -734,7 +745,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:100%;
-    background-color:#90be9a;
+    background-color:#da765d;
     position: absolute;
     top: -31px;
     left: 1px;
@@ -747,7 +758,7 @@ border-radius: 10px;
     width: 120px;
 }
 #l6:hover{
-    color: #90be9a;
+    color: #da765d;
 
 }
 #l6::before{
@@ -755,7 +766,7 @@ border-radius: 10px;
     display: block;
     height: 8px;
     width:100%;
-    background-color:#90be9a;
+    background-color:#da765d;
     position: absolute;
     top: -31px;
     left: 1px;
@@ -768,10 +779,11 @@ border-radius: 10px;
     width: 120px;
 }
 .first-background{
-    width: 100%;
+    width: 1422px;
     height: 600px;
     position: relative;
     top: 85px;
+    margin-left: -4px;
   
 }
 .khode-first-background{
@@ -784,10 +796,10 @@ border-radius: 10px;
 .vocabulary-div{
     height: 450px;
     width: 500px;
-    background-color: #90be9a;
+    background-color: #da765d;
     position: relative;
     float: right;
-    right: -5px;
+    right:-13px;
     top: -290px;
     border-top-left-radius:50px ;
     margin-bottom: 0px;
@@ -795,7 +807,7 @@ border-radius: 10px;
 .vocabulary-h1{
     font-size: 50px;
     position: relative;
-    color: #384859;
+    color: #EBE9E1;
     left: 50px;
     top: 10px;
     width: 90%;
@@ -808,13 +820,13 @@ border-radius: 10px;
     left: 30px;
     font-size: 40px;
     font-weight: 500;
-    color: beige;
+    color: #ebe9e1da;
 
 }
 .long-back{
     width: 1420px;
     height: 2500px;
-    background-color: aliceblue;
+    background-color: #EBE9E1;
     border-top-left-radius:2% ;
 }
 .info{
@@ -823,7 +835,7 @@ border-radius: 10px;
     color: aliceblue;
     top: 100px;
     width: 60%;
-    background-color: #556e88;
+    background-color: #efb11d;
     border-radius: 20px;
     left: 40px;
 }
@@ -924,7 +936,7 @@ border-radius: 10px;
     width: 55%;
     height: 62%;
     float: right;
-    background-color: #384859;
+    background-color: #da765d;
     position: relative;
     top: -230px;
     border-top-left-radius: 55px;
@@ -960,7 +972,7 @@ top: -248px;
 .last-p{
     width: 1200px;
     height: 350px;
-    background-color: #5d7762;
+    background-color: #efb11d;
     display:inline-block;
     position: relative;
     top: -280px;
@@ -973,12 +985,12 @@ top: -248px;
 }
 .last-p p{
     font-size: 22px;
-    color: aliceblue;
+    color: #EBE9E1;
 
 }
 #last-h2{
     font-size: 32px;
-    color: beige;
+    color: #EBE9E1;
     
 
 }
@@ -986,7 +998,7 @@ top: -248px;
     width: 300px;
     height: 70px;
     border-radius: 20px;
-    background-color: #384859;
+    background-color: #e41640;
     font-size: 20px;
     color: aliceblue;
     border: solid 2px aliceblue;
@@ -998,7 +1010,7 @@ top: -248px;
 
 }
 .last-button:hover{
-    background-color: #556e88;
+    background-color: #da765d;
     transition:ease-in-out 0.3s;
     border: solid 5px aliceblue;
     transform: scale(1.0);
@@ -1008,7 +1020,7 @@ top: -248px;
 .cb, .b2 , .b3, .b4{
     width: 300px;
     height: 300px;
-    background-color: #90be9a;
+    background-color: #da765d;
     margin-left: 30px;
     border-radius: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -1211,7 +1223,7 @@ text-decoration: underline;
     position: relative;
     left: 30px;
     top: 20px;
-    background-color: aliceblue;
+    background-color: #efb01dc5;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
 }
@@ -1223,7 +1235,7 @@ text-decoration: underline;
 }
 .first-ul li:hover{
     text-decoration: underline;
-    color: #5d7762;
+    color: #da765d;
 }
 .a1,.a2,.a3{
     text-decoration: none;
@@ -1261,7 +1273,7 @@ height: 300px;
     height: 30%;
     font-size: 22px;
     text-align: center;
-    color: #384859;
+    color: black;
   
 }
 .h3-for-text2{
@@ -1323,7 +1335,7 @@ height: 300px;
     margin: 0px;
 }
 body{
-    background-color: #384859;
+    background-color: #EBE9E1;
     width: 99%;
     height: 100%;
     display: flex;

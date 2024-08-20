@@ -520,7 +520,10 @@ body{
 .nmd{
     float: left;
     height: 90px;
-    width: 100px;
+    width: 210px;
+    margin-left: -80px;
+    color: aliceblue;
+    
     
   
 
@@ -532,11 +535,14 @@ body{
     border-radius: 15px;
     display: table-cell;
     vertical-align: middle;
-    border: solid #ffffff 2px;
     position: relative;
-    left: 40px;
-    top: 5px;
+    left: 80px;
+    top: 8px;
     
+}
+a{
+    all: unset;
+    cursor: pointer;
 }
 
 

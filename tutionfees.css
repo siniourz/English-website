@@ -23,24 +23,30 @@
 
 .nmd{
     float: left;
-    height: 70px;
-    width: 110px;
+    height: 90px;
+    width: 210px;
+    margin-left: -80px;
+    color: aliceblue;
+    
     
   
 
 }
 #hlogo{
     width: 100%;
-    height: 100%;
+    height: 60px;
     margin: 5px 10px 0px 0px ;
     border-radius: 15px;
     display: table-cell;
     vertical-align: middle;
-    border: solid #ffffff 2px;
     position: relative;
     left: 90px;
-    top: 5px;
+    top: 12px;
     
+}
+a{
+    all: unset;
+    cursor: pointer;
 }
 
 
