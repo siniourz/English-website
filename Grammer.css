@@ -1358,6 +1358,21 @@ height: 300px;
 .right-text{
     left: 950px;
 }
+.dn{
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 0;
+}
+.dn1{
+    width: 30%;
+    height: 20%;
+    float: right;
+    margin-top: -10%;
+    margin-right: 15%;
+
+}
 @media only screen and (max-width:768px){
 .dheader,.first-background,.vocabulary-div,.long-back,.first-small-vertical-box,.second-vertical-box,.third-vertical-box,.long-horizontal-div{
     display: none;

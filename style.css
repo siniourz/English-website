@@ -1960,7 +1960,8 @@ font-weight: 550;
     gap: 6px; /* Gap between the grid items */
     align-items: center; /* Center items vertically */
     justify-items: center; /* Center items horizontally */
-    margin-right: 2px;
+    margin-right: 0px;
+
 }
 
 .last-footer div {
